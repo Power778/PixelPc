@@ -1,0 +1,4412 @@
+[
+  {
+    "id": 1,
+    "name": "Intel CPU Model 1",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Intel+CPU+1",
+    "price": 51
+  },
+  {
+    "id": 2,
+    "name": "Intel CPU Model 2",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Intel+CPU+2",
+    "price": 67
+  },
+  {
+    "id": 3,
+    "name": "Intel CPU Model 3",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Intel+CPU+3",
+    "price": 83
+  },
+  {
+    "id": 4,
+    "name": "Intel CPU Model 4",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Intel+CPU+4",
+    "price": 99
+  },
+  {
+    "id": 5,
+    "name": "Intel CPU Model 5",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Intel+CPU+5",
+    "price": 115
+  },
+  {
+    "id": 6,
+    "name": "Intel CPU Model 6",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Intel+CPU+6",
+    "price": 131
+  },
+  {
+    "id": 7,
+    "name": "Intel CPU Model 7",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Intel+CPU+7",
+    "price": 147
+  },
+  {
+    "id": 8,
+    "name": "Intel CPU Model 8",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Intel+CPU+8",
+    "price": 163
+  },
+  {
+    "id": 9,
+    "name": "Intel CPU Model 9",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Intel+CPU+9",
+    "price": 179
+  },
+  {
+    "id": 10,
+    "name": "Intel CPU Model 10",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Intel+CPU+10",
+    "price": 195
+  },
+  {
+    "id": 11,
+    "name": "AMD CPU Model 1",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=AMD+CPU+1",
+    "price": 61
+  },
+  {
+    "id": 12,
+    "name": "AMD CPU Model 2",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=AMD+CPU+2",
+    "price": 77
+  },
+  {
+    "id": 13,
+    "name": "AMD CPU Model 3",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=AMD+CPU+3",
+    "price": 93
+  },
+  {
+    "id": 14,
+    "name": "AMD CPU Model 4",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=AMD+CPU+4",
+    "price": 109
+  },
+  {
+    "id": 15,
+    "name": "AMD CPU Model 5",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=AMD+CPU+5",
+    "price": 125
+  },
+  {
+    "id": 16,
+    "name": "AMD CPU Model 6",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=AMD+CPU+6",
+    "price": 141
+  },
+  {
+    "id": 17,
+    "name": "AMD CPU Model 7",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=AMD+CPU+7",
+    "price": 157
+  },
+  {
+    "id": 18,
+    "name": "AMD CPU Model 8",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=AMD+CPU+8",
+    "price": 173
+  },
+  {
+    "id": 19,
+    "name": "AMD CPU Model 9",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=AMD+CPU+9",
+    "price": 189
+  },
+  {
+    "id": 20,
+    "name": "AMD CPU Model 10",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=AMD+CPU+10",
+    "price": 185
+  },
+  {
+    "id": 21,
+    "name": "NVIDIA CPU Model 1",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+CPU+1",
+    "price": 51
+  },
+  {
+    "id": 22,
+    "name": "NVIDIA CPU Model 2",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+CPU+2",
+    "price": 67
+  },
+  {
+    "id": 23,
+    "name": "NVIDIA CPU Model 3",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+CPU+3",
+    "price": 83
+  },
+  {
+    "id": 24,
+    "name": "NVIDIA CPU Model 4",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+CPU+4",
+    "price": 99
+  },
+  {
+    "id": 25,
+    "name": "NVIDIA CPU Model 5",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+CPU+5",
+    "price": 115
+  },
+  {
+    "id": 26,
+    "name": "NVIDIA CPU Model 6",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+CPU+6",
+    "price": 131
+  },
+  {
+    "id": 27,
+    "name": "NVIDIA CPU Model 7",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+CPU+7",
+    "price": 147
+  },
+  {
+    "id": 28,
+    "name": "NVIDIA CPU Model 8",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+CPU+8",
+    "price": 163
+  },
+  {
+    "id": 29,
+    "name": "NVIDIA CPU Model 9",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+CPU+9",
+    "price": 179
+  },
+  {
+    "id": 30,
+    "name": "NVIDIA CPU Model 10",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+CPU+10",
+    "price": 195
+  },
+  {
+    "id": 31,
+    "name": "Corsair CPU Model 1",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+CPU+1",
+    "price": 61
+  },
+  {
+    "id": 32,
+    "name": "Corsair CPU Model 2",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+CPU+2",
+    "price": 77
+  },
+  {
+    "id": 33,
+    "name": "Corsair CPU Model 3",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+CPU+3",
+    "price": 93
+  },
+  {
+    "id": 34,
+    "name": "Corsair CPU Model 4",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+CPU+4",
+    "price": 109
+  },
+  {
+    "id": 35,
+    "name": "Corsair CPU Model 5",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+CPU+5",
+    "price": 125
+  },
+  {
+    "id": 36,
+    "name": "Corsair CPU Model 6",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+CPU+6",
+    "price": 141
+  },
+  {
+    "id": 37,
+    "name": "Corsair CPU Model 7",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+CPU+7",
+    "price": 157
+  },
+  {
+    "id": 38,
+    "name": "Corsair CPU Model 8",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+CPU+8",
+    "price": 173
+  },
+  {
+    "id": 39,
+    "name": "Corsair CPU Model 9",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+CPU+9",
+    "price": 189
+  },
+  {
+    "id": 40,
+    "name": "Corsair CPU Model 10",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+CPU+10",
+    "price": 185
+  },
+  {
+    "id": 41,
+    "name": "Samsung CPU Model 1",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+CPU+1",
+    "price": 51
+  },
+  {
+    "id": 42,
+    "name": "Samsung CPU Model 2",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+CPU+2",
+    "price": 67
+  },
+  {
+    "id": 43,
+    "name": "Samsung CPU Model 3",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+CPU+3",
+    "price": 83
+  },
+  {
+    "id": 44,
+    "name": "Samsung CPU Model 4",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+CPU+4",
+    "price": 99
+  },
+  {
+    "id": 45,
+    "name": "Samsung CPU Model 5",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+CPU+5",
+    "price": 115
+  },
+  {
+    "id": 46,
+    "name": "Samsung CPU Model 6",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+CPU+6",
+    "price": 131
+  },
+  {
+    "id": 47,
+    "name": "Samsung CPU Model 7",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+CPU+7",
+    "price": 147
+  },
+  {
+    "id": 48,
+    "name": "Samsung CPU Model 8",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+CPU+8",
+    "price": 163
+  },
+  {
+    "id": 49,
+    "name": "Samsung CPU Model 9",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+CPU+9",
+    "price": 179
+  },
+  {
+    "id": 50,
+    "name": "Samsung CPU Model 10",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+CPU+10",
+    "price": 195
+  },
+  {
+    "id": 51,
+    "name": "Seagate CPU Model 1",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+CPU+1",
+    "price": 61
+  },
+  {
+    "id": 52,
+    "name": "Seagate CPU Model 2",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+CPU+2",
+    "price": 77
+  },
+  {
+    "id": 53,
+    "name": "Seagate CPU Model 3",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+CPU+3",
+    "price": 93
+  },
+  {
+    "id": 54,
+    "name": "Seagate CPU Model 4",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+CPU+4",
+    "price": 109
+  },
+  {
+    "id": 55,
+    "name": "Seagate CPU Model 5",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+CPU+5",
+    "price": 125
+  },
+  {
+    "id": 56,
+    "name": "Seagate CPU Model 6",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+CPU+6",
+    "price": 141
+  },
+  {
+    "id": 57,
+    "name": "Seagate CPU Model 7",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+CPU+7",
+    "price": 157
+  },
+  {
+    "id": 58,
+    "name": "Seagate CPU Model 8",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+CPU+8",
+    "price": 173
+  },
+  {
+    "id": 59,
+    "name": "Seagate CPU Model 9",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+CPU+9",
+    "price": 189
+  },
+  {
+    "id": 60,
+    "name": "Seagate CPU Model 10",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+CPU+10",
+    "price": 185
+  },
+  {
+    "id": 61,
+    "name": "ASUS CPU Model 1",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+CPU+1",
+    "price": 51
+  },
+  {
+    "id": 62,
+    "name": "ASUS CPU Model 2",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+CPU+2",
+    "price": 67
+  },
+  {
+    "id": 63,
+    "name": "ASUS CPU Model 3",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+CPU+3",
+    "price": 83
+  },
+  {
+    "id": 64,
+    "name": "ASUS CPU Model 4",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+CPU+4",
+    "price": 99
+  },
+  {
+    "id": 65,
+    "name": "ASUS CPU Model 5",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+CPU+5",
+    "price": 115
+  },
+  {
+    "id": 66,
+    "name": "ASUS CPU Model 6",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+CPU+6",
+    "price": 131
+  },
+  {
+    "id": 67,
+    "name": "ASUS CPU Model 7",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+CPU+7",
+    "price": 147
+  },
+  {
+    "id": 68,
+    "name": "ASUS CPU Model 8",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+CPU+8",
+    "price": 163
+  },
+  {
+    "id": 69,
+    "name": "ASUS CPU Model 9",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+CPU+9",
+    "price": 179
+  },
+  {
+    "id": 70,
+    "name": "ASUS CPU Model 10",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+CPU+10",
+    "price": 195
+  },
+  {
+    "id": 71,
+    "name": "MSI CPU Model 1",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=MSI+CPU+1",
+    "price": 61
+  },
+  {
+    "id": 72,
+    "name": "MSI CPU Model 2",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=MSI+CPU+2",
+    "price": 77
+  },
+  {
+    "id": 73,
+    "name": "MSI CPU Model 3",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=MSI+CPU+3",
+    "price": 93
+  },
+  {
+    "id": 74,
+    "name": "MSI CPU Model 4",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=MSI+CPU+4",
+    "price": 109
+  },
+  {
+    "id": 75,
+    "name": "MSI CPU Model 5",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=MSI+CPU+5",
+    "price": 125
+  },
+  {
+    "id": 76,
+    "name": "MSI CPU Model 6",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=MSI+CPU+6",
+    "price": 141
+  },
+  {
+    "id": 77,
+    "name": "MSI CPU Model 7",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=MSI+CPU+7",
+    "price": 157
+  },
+  {
+    "id": 78,
+    "name": "MSI CPU Model 8",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=MSI+CPU+8",
+    "price": 173
+  },
+  {
+    "id": 79,
+    "name": "MSI CPU Model 9",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=MSI+CPU+9",
+    "price": 189
+  },
+  {
+    "id": 80,
+    "name": "MSI CPU Model 10",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=MSI+CPU+10",
+    "price": 185
+  },
+  {
+    "id": 81,
+    "name": "EVGA CPU Model 1",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+CPU+1",
+    "price": 51
+  },
+  {
+    "id": 82,
+    "name": "EVGA CPU Model 2",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+CPU+2",
+    "price": 67
+  },
+  {
+    "id": 83,
+    "name": "EVGA CPU Model 3",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+CPU+3",
+    "price": 83
+  },
+  {
+    "id": 84,
+    "name": "EVGA CPU Model 4",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+CPU+4",
+    "price": 99
+  },
+  {
+    "id": 85,
+    "name": "EVGA CPU Model 5",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+CPU+5",
+    "price": 115
+  },
+  {
+    "id": 86,
+    "name": "EVGA CPU Model 6",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+CPU+6",
+    "price": 131
+  },
+  {
+    "id": 87,
+    "name": "EVGA CPU Model 7",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+CPU+7",
+    "price": 147
+  },
+  {
+    "id": 88,
+    "name": "EVGA CPU Model 8",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+CPU+8",
+    "price": 163
+  },
+  {
+    "id": 89,
+    "name": "EVGA CPU Model 9",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+CPU+9",
+    "price": 179
+  },
+  {
+    "id": 90,
+    "name": "EVGA CPU Model 10",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+CPU+10",
+    "price": 195
+  },
+  {
+    "id": 91,
+    "name": "Intel GPU Model 1",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Intel+GPU+1",
+    "price": 61
+  },
+  {
+    "id": 92,
+    "name": "Intel GPU Model 2",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Intel+GPU+2",
+    "price": 77
+  },
+  {
+    "id": 93,
+    "name": "Intel GPU Model 3",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Intel+GPU+3",
+    "price": 93
+  },
+  {
+    "id": 94,
+    "name": "Intel GPU Model 4",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Intel+GPU+4",
+    "price": 109
+  },
+  {
+    "id": 95,
+    "name": "Intel GPU Model 5",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Intel+GPU+5",
+    "price": 125
+  },
+  {
+    "id": 96,
+    "name": "Intel GPU Model 6",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Intel+GPU+6",
+    "price": 141
+  },
+  {
+    "id": 97,
+    "name": "Intel GPU Model 7",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Intel+GPU+7",
+    "price": 157
+  },
+  {
+    "id": 98,
+    "name": "Intel GPU Model 8",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Intel+GPU+8",
+    "price": 173
+  },
+  {
+    "id": 99,
+    "name": "Intel GPU Model 9",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Intel+GPU+9",
+    "price": 189
+  },
+  {
+    "id": 100,
+    "name": "Intel GPU Model 10",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Intel+GPU+10",
+    "price": 185
+  },
+  {
+    "id": 101,
+    "name": "AMD GPU Model 1",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=AMD+GPU+1",
+    "price": 51
+  },
+  {
+    "id": 102,
+    "name": "AMD GPU Model 2",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=AMD+GPU+2",
+    "price": 67
+  },
+  {
+    "id": 103,
+    "name": "AMD GPU Model 3",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=AMD+GPU+3",
+    "price": 83
+  },
+  {
+    "id": 104,
+    "name": "AMD GPU Model 4",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=AMD+GPU+4",
+    "price": 99
+  },
+  {
+    "id": 105,
+    "name": "AMD GPU Model 5",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=AMD+GPU+5",
+    "price": 115
+  },
+  {
+    "id": 106,
+    "name": "AMD GPU Model 6",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=AMD+GPU+6",
+    "price": 131
+  },
+  {
+    "id": 107,
+    "name": "AMD GPU Model 7",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=AMD+GPU+7",
+    "price": 147
+  },
+  {
+    "id": 108,
+    "name": "AMD GPU Model 8",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=AMD+GPU+8",
+    "price": 163
+  },
+  {
+    "id": 109,
+    "name": "AMD GPU Model 9",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=AMD+GPU+9",
+    "price": 179
+  },
+  {
+    "id": 110,
+    "name": "AMD GPU Model 10",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=AMD+GPU+10",
+    "price": 195
+  },
+  {
+    "id": 111,
+    "name": "NVIDIA GPU Model 1",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+GPU+1",
+    "price": 61
+  },
+  {
+    "id": 112,
+    "name": "NVIDIA GPU Model 2",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+GPU+2",
+    "price": 77
+  },
+  {
+    "id": 113,
+    "name": "NVIDIA GPU Model 3",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+GPU+3",
+    "price": 93
+  },
+  {
+    "id": 114,
+    "name": "NVIDIA GPU Model 4",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+GPU+4",
+    "price": 109
+  },
+  {
+    "id": 115,
+    "name": "NVIDIA GPU Model 5",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+GPU+5",
+    "price": 125
+  },
+  {
+    "id": 116,
+    "name": "NVIDIA GPU Model 6",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+GPU+6",
+    "price": 141
+  },
+  {
+    "id": 117,
+    "name": "NVIDIA GPU Model 7",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+GPU+7",
+    "price": 157
+  },
+  {
+    "id": 118,
+    "name": "NVIDIA GPU Model 8",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+GPU+8",
+    "price": 173
+  },
+  {
+    "id": 119,
+    "name": "NVIDIA GPU Model 9",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+GPU+9",
+    "price": 189
+  },
+  {
+    "id": 120,
+    "name": "NVIDIA GPU Model 10",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+GPU+10",
+    "price": 185
+  },
+  {
+    "id": 121,
+    "name": "Corsair GPU Model 1",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+GPU+1",
+    "price": 51
+  },
+  {
+    "id": 122,
+    "name": "Corsair GPU Model 2",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+GPU+2",
+    "price": 67
+  },
+  {
+    "id": 123,
+    "name": "Corsair GPU Model 3",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+GPU+3",
+    "price": 83
+  },
+  {
+    "id": 124,
+    "name": "Corsair GPU Model 4",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+GPU+4",
+    "price": 99
+  },
+  {
+    "id": 125,
+    "name": "Corsair GPU Model 5",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+GPU+5",
+    "price": 115
+  },
+  {
+    "id": 126,
+    "name": "Corsair GPU Model 6",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+GPU+6",
+    "price": 131
+  },
+  {
+    "id": 127,
+    "name": "Corsair GPU Model 7",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+GPU+7",
+    "price": 147
+  },
+  {
+    "id": 128,
+    "name": "Corsair GPU Model 8",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+GPU+8",
+    "price": 163
+  },
+  {
+    "id": 129,
+    "name": "Corsair GPU Model 9",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+GPU+9",
+    "price": 179
+  },
+  {
+    "id": 130,
+    "name": "Corsair GPU Model 10",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Corsair+GPU+10",
+    "price": 195
+  },
+  {
+    "id": 131,
+    "name": "Samsung GPU Model 1",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+GPU+1",
+    "price": 61
+  },
+  {
+    "id": 132,
+    "name": "Samsung GPU Model 2",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+GPU+2",
+    "price": 77
+  },
+  {
+    "id": 133,
+    "name": "Samsung GPU Model 3",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+GPU+3",
+    "price": 93
+  },
+  {
+    "id": 134,
+    "name": "Samsung GPU Model 4",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+GPU+4",
+    "price": 109
+  },
+  {
+    "id": 135,
+    "name": "Samsung GPU Model 5",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+GPU+5",
+    "price": 125
+  },
+  {
+    "id": 136,
+    "name": "Samsung GPU Model 6",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+GPU+6",
+    "price": 141
+  },
+  {
+    "id": 137,
+    "name": "Samsung GPU Model 7",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+GPU+7",
+    "price": 157
+  },
+  {
+    "id": 138,
+    "name": "Samsung GPU Model 8",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+GPU+8",
+    "price": 173
+  },
+  {
+    "id": 139,
+    "name": "Samsung GPU Model 9",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+GPU+9",
+    "price": 189
+  },
+  {
+    "id": 140,
+    "name": "Samsung GPU Model 10",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Samsung+GPU+10",
+    "price": 185
+  },
+  {
+    "id": 141,
+    "name": "Seagate GPU Model 1",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+GPU+1",
+    "price": 51
+  },
+  {
+    "id": 142,
+    "name": "Seagate GPU Model 2",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+GPU+2",
+    "price": 67
+  },
+  {
+    "id": 143,
+    "name": "Seagate GPU Model 3",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+GPU+3",
+    "price": 83
+  },
+  {
+    "id": 144,
+    "name": "Seagate GPU Model 4",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+GPU+4",
+    "price": 99
+  },
+  {
+    "id": 145,
+    "name": "Seagate GPU Model 5",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+GPU+5",
+    "price": 115
+  },
+  {
+    "id": 146,
+    "name": "Seagate GPU Model 6",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+GPU+6",
+    "price": 131
+  },
+  {
+    "id": 147,
+    "name": "Seagate GPU Model 7",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+GPU+7",
+    "price": 147
+  },
+  {
+    "id": 148,
+    "name": "Seagate GPU Model 8",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+GPU+8",
+    "price": 163
+  },
+  {
+    "id": 149,
+    "name": "Seagate GPU Model 9",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+GPU+9",
+    "price": 179
+  },
+  {
+    "id": 150,
+    "name": "Seagate GPU Model 10",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=Seagate+GPU+10",
+    "price": 195
+  },
+  {
+    "id": 151,
+    "name": "ASUS GPU Model 1",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+GPU+1",
+    "price": 61
+  },
+  {
+    "id": 152,
+    "name": "ASUS GPU Model 2",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+GPU+2",
+    "price": 77
+  },
+  {
+    "id": 153,
+    "name": "ASUS GPU Model 3",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+GPU+3",
+    "price": 93
+  },
+  {
+    "id": 154,
+    "name": "ASUS GPU Model 4",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+GPU+4",
+    "price": 109
+  },
+  {
+    "id": 155,
+    "name": "ASUS GPU Model 5",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+GPU+5",
+    "price": 125
+  },
+  {
+    "id": 156,
+    "name": "ASUS GPU Model 6",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+GPU+6",
+    "price": 141
+  },
+  {
+    "id": 157,
+    "name": "ASUS GPU Model 7",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+GPU+7",
+    "price": 157
+  },
+  {
+    "id": 158,
+    "name": "ASUS GPU Model 8",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+GPU+8",
+    "price": 173
+  },
+  {
+    "id": 159,
+    "name": "ASUS GPU Model 9",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+GPU+9",
+    "price": 189
+  },
+  {
+    "id": 160,
+    "name": "ASUS GPU Model 10",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=ASUS+GPU+10",
+    "price": 185
+  },
+  {
+    "id": 161,
+    "name": "MSI GPU Model 1",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=MSI+GPU+1",
+    "price": 51
+  },
+  {
+    "id": 162,
+    "name": "MSI GPU Model 2",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=MSI+GPU+2",
+    "price": 67
+  },
+  {
+    "id": 163,
+    "name": "MSI GPU Model 3",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=MSI+GPU+3",
+    "price": 83
+  },
+  {
+    "id": 164,
+    "name": "MSI GPU Model 4",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=MSI+GPU+4",
+    "price": 99
+  },
+  {
+    "id": 165,
+    "name": "MSI GPU Model 5",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=MSI+GPU+5",
+    "price": 115
+  },
+  {
+    "id": 166,
+    "name": "MSI GPU Model 6",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=MSI+GPU+6",
+    "price": 131
+  },
+  {
+    "id": 167,
+    "name": "MSI GPU Model 7",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=MSI+GPU+7",
+    "price": 147
+  },
+  {
+    "id": 168,
+    "name": "MSI GPU Model 8",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=MSI+GPU+8",
+    "price": 163
+  },
+  {
+    "id": 169,
+    "name": "MSI GPU Model 9",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=MSI+GPU+9",
+    "price": 179
+  },
+  {
+    "id": 170,
+    "name": "MSI GPU Model 10",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=MSI+GPU+10",
+    "price": 195
+  },
+  {
+    "id": 171,
+    "name": "EVGA GPU Model 1",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+GPU+1",
+    "price": 61
+  },
+  {
+    "id": 172,
+    "name": "EVGA GPU Model 2",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+GPU+2",
+    "price": 77
+  },
+  {
+    "id": 173,
+    "name": "EVGA GPU Model 3",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+GPU+3",
+    "price": 93
+  },
+  {
+    "id": 174,
+    "name": "EVGA GPU Model 4",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+GPU+4",
+    "price": 109
+  },
+  {
+    "id": 175,
+    "name": "EVGA GPU Model 5",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+GPU+5",
+    "price": 125
+  },
+  {
+    "id": 176,
+    "name": "EVGA GPU Model 6",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+GPU+6",
+    "price": 141
+  },
+  {
+    "id": 177,
+    "name": "EVGA GPU Model 7",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+GPU+7",
+    "price": 157
+  },
+  {
+    "id": 178,
+    "name": "EVGA GPU Model 8",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+GPU+8",
+    "price": 173
+  },
+  {
+    "id": 179,
+    "name": "EVGA GPU Model 9",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+GPU+9",
+    "price": 189
+  },
+  {
+    "id": 180,
+    "name": "EVGA GPU Model 10",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/100?text=EVGA+GPU+10",
+    "price": 185
+  },
+  {
+    "id": 181,
+    "name": "Intel RAM Model 1",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Intel+RAM+1",
+    "price": 51
+  },
+  {
+    "id": 182,
+    "name": "Intel RAM Model 2",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Intel+RAM+2",
+    "price": 67
+  },
+  {
+    "id": 183,
+    "name": "Intel RAM Model 3",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Intel+RAM+3",
+    "price": 83
+  },
+  {
+    "id": 184,
+    "name": "Intel RAM Model 4",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Intel+RAM+4",
+    "price": 99
+  },
+  {
+    "id": 185,
+    "name": "Intel RAM Model 5",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Intel+RAM+5",
+    "price": 115
+  },
+  {
+    "id": 186,
+    "name": "Intel RAM Model 6",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Intel+RAM+6",
+    "price": 131
+  },
+  {
+    "id": 187,
+    "name": "Intel RAM Model 7",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Intel+RAM+7",
+    "price": 147
+  },
+  {
+    "id": 188,
+    "name": "Intel RAM Model 8",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Intel+RAM+8",
+    "price": 163
+  },
+  {
+    "id": 189,
+    "name": "Intel RAM Model 9",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Intel+RAM+9",
+    "price": 179
+  },
+  {
+    "id": 190,
+    "name": "Intel RAM Model 10",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Intel+RAM+10",
+    "price": 195
+  },
+  {
+    "id": 191,
+    "name": "AMD RAM Model 1",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=AMD+RAM+1",
+    "price": 61
+  },
+  {
+    "id": 192,
+    "name": "AMD RAM Model 2",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=AMD+RAM+2",
+    "price": 77
+  },
+  {
+    "id": 193,
+    "name": "AMD RAM Model 3",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=AMD+RAM+3",
+    "price": 93
+  },
+  {
+    "id": 194,
+    "name": "AMD RAM Model 4",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=AMD+RAM+4",
+    "price": 109
+  },
+  {
+    "id": 195,
+    "name": "AMD RAM Model 5",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=AMD+RAM+5",
+    "price": 125
+  },
+  {
+    "id": 196,
+    "name": "AMD RAM Model 6",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=AMD+RAM+6",
+    "price": 141
+  },
+  {
+    "id": 197,
+    "name": "AMD RAM Model 7",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=AMD+RAM+7",
+    "price": 157
+  },
+  {
+    "id": 198,
+    "name": "AMD RAM Model 8",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=AMD+RAM+8",
+    "price": 173
+  },
+  {
+    "id": 199,
+    "name": "AMD RAM Model 9",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=AMD+RAM+9",
+    "price": 189
+  },
+  {
+    "id": 200,
+    "name": "AMD RAM Model 10",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=AMD+RAM+10",
+    "price": 185
+  },
+  {
+    "id": 201,
+    "name": "NVIDIA RAM Model 1",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+RAM+1",
+    "price": 51
+  },
+  {
+    "id": 202,
+    "name": "NVIDIA RAM Model 2",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+RAM+2",
+    "price": 67
+  },
+  {
+    "id": 203,
+    "name": "NVIDIA RAM Model 3",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+RAM+3",
+    "price": 83
+  },
+  {
+    "id": 204,
+    "name": "NVIDIA RAM Model 4",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+RAM+4",
+    "price": 99
+  },
+  {
+    "id": 205,
+    "name": "NVIDIA RAM Model 5",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+RAM+5",
+    "price": 115
+  },
+  {
+    "id": 206,
+    "name": "NVIDIA RAM Model 6",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+RAM+6",
+    "price": 131
+  },
+  {
+    "id": 207,
+    "name": "NVIDIA RAM Model 7",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+RAM+7",
+    "price": 147
+  },
+  {
+    "id": 208,
+    "name": "NVIDIA RAM Model 8",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+RAM+8",
+    "price": 163
+  },
+  {
+    "id": 209,
+    "name": "NVIDIA RAM Model 9",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+RAM+9",
+    "price": 179
+  },
+  {
+    "id": 210,
+    "name": "NVIDIA RAM Model 10",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+RAM+10",
+    "price": 195
+  },
+  {
+    "id": 211,
+    "name": "Corsair RAM Model 1",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Corsair+RAM+1",
+    "price": 61
+  },
+  {
+    "id": 212,
+    "name": "Corsair RAM Model 2",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Corsair+RAM+2",
+    "price": 77
+  },
+  {
+    "id": 213,
+    "name": "Corsair RAM Model 3",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Corsair+RAM+3",
+    "price": 93
+  },
+  {
+    "id": 214,
+    "name": "Corsair RAM Model 4",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Corsair+RAM+4",
+    "price": 109
+  },
+  {
+    "id": 215,
+    "name": "Corsair RAM Model 5",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Corsair+RAM+5",
+    "price": 125
+  },
+  {
+    "id": 216,
+    "name": "Corsair RAM Model 6",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Corsair+RAM+6",
+    "price": 141
+  },
+  {
+    "id": 217,
+    "name": "Corsair RAM Model 7",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Corsair+RAM+7",
+    "price": 157
+  },
+  {
+    "id": 218,
+    "name": "Corsair RAM Model 8",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Corsair+RAM+8",
+    "price": 173
+  },
+  {
+    "id": 219,
+    "name": "Corsair RAM Model 9",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Corsair+RAM+9",
+    "price": 189
+  },
+  {
+    "id": 220,
+    "name": "Corsair RAM Model 10",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Corsair+RAM+10",
+    "price": 185
+  },
+  {
+    "id": 221,
+    "name": "Samsung RAM Model 1",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Samsung+RAM+1",
+    "price": 51
+  },
+  {
+    "id": 222,
+    "name": "Samsung RAM Model 2",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Samsung+RAM+2",
+    "price": 67
+  },
+  {
+    "id": 223,
+    "name": "Samsung RAM Model 3",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Samsung+RAM+3",
+    "price": 83
+  },
+  {
+    "id": 224,
+    "name": "Samsung RAM Model 4",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Samsung+RAM+4",
+    "price": 99
+  },
+  {
+    "id": 225,
+    "name": "Samsung RAM Model 5",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Samsung+RAM+5",
+    "price": 115
+  },
+  {
+    "id": 226,
+    "name": "Samsung RAM Model 6",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Samsung+RAM+6",
+    "price": 131
+  },
+  {
+    "id": 227,
+    "name": "Samsung RAM Model 7",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Samsung+RAM+7",
+    "price": 147
+  },
+  {
+    "id": 228,
+    "name": "Samsung RAM Model 8",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Samsung+RAM+8",
+    "price": 163
+  },
+  {
+    "id": 229,
+    "name": "Samsung RAM Model 9",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Samsung+RAM+9",
+    "price": 179
+  },
+  {
+    "id": 230,
+    "name": "Samsung RAM Model 10",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Samsung+RAM+10",
+    "price": 195
+  },
+  {
+    "id": 231,
+    "name": "Seagate RAM Model 1",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Seagate+RAM+1",
+    "price": 61
+  },
+  {
+    "id": 232,
+    "name": "Seagate RAM Model 2",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Seagate+RAM+2",
+    "price": 77
+  },
+  {
+    "id": 233,
+    "name": "Seagate RAM Model 3",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Seagate+RAM+3",
+    "price": 93
+  },
+  {
+    "id": 234,
+    "name": "Seagate RAM Model 4",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Seagate+RAM+4",
+    "price": 109
+  },
+  {
+    "id": 235,
+    "name": "Seagate RAM Model 5",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Seagate+RAM+5",
+    "price": 125
+  },
+  {
+    "id": 236,
+    "name": "Seagate RAM Model 6",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Seagate+RAM+6",
+    "price": 141
+  },
+  {
+    "id": 237,
+    "name": "Seagate RAM Model 7",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Seagate+RAM+7",
+    "price": 157
+  },
+  {
+    "id": 238,
+    "name": "Seagate RAM Model 8",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Seagate+RAM+8",
+    "price": 173
+  },
+  {
+    "id": 239,
+    "name": "Seagate RAM Model 9",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Seagate+RAM+9",
+    "price": 189
+  },
+  {
+    "id": 240,
+    "name": "Seagate RAM Model 10",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=Seagate+RAM+10",
+    "price": 185
+  },
+  {
+    "id": 241,
+    "name": "ASUS RAM Model 1",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=ASUS+RAM+1",
+    "price": 51
+  },
+  {
+    "id": 242,
+    "name": "ASUS RAM Model 2",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=ASUS+RAM+2",
+    "price": 67
+  },
+  {
+    "id": 243,
+    "name": "ASUS RAM Model 3",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=ASUS+RAM+3",
+    "price": 83
+  },
+  {
+    "id": 244,
+    "name": "ASUS RAM Model 4",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=ASUS+RAM+4",
+    "price": 99
+  },
+  {
+    "id": 245,
+    "name": "ASUS RAM Model 5",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=ASUS+RAM+5",
+    "price": 115
+  },
+  {
+    "id": 246,
+    "name": "ASUS RAM Model 6",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=ASUS+RAM+6",
+    "price": 131
+  },
+  {
+    "id": 247,
+    "name": "ASUS RAM Model 7",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=ASUS+RAM+7",
+    "price": 147
+  },
+  {
+    "id": 248,
+    "name": "ASUS RAM Model 8",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=ASUS+RAM+8",
+    "price": 163
+  },
+  {
+    "id": 249,
+    "name": "ASUS RAM Model 9",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=ASUS+RAM+9",
+    "price": 179
+  },
+  {
+    "id": 250,
+    "name": "ASUS RAM Model 10",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=ASUS+RAM+10",
+    "price": 195
+  },
+  {
+    "id": 251,
+    "name": "MSI RAM Model 1",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=MSI+RAM+1",
+    "price": 61
+  },
+  {
+    "id": 252,
+    "name": "MSI RAM Model 2",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=MSI+RAM+2",
+    "price": 77
+  },
+  {
+    "id": 253,
+    "name": "MSI RAM Model 3",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=MSI+RAM+3",
+    "price": 93
+  },
+  {
+    "id": 254,
+    "name": "MSI RAM Model 4",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=MSI+RAM+4",
+    "price": 109
+  },
+  {
+    "id": 255,
+    "name": "MSI RAM Model 5",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=MSI+RAM+5",
+    "price": 125
+  },
+  {
+    "id": 256,
+    "name": "MSI RAM Model 6",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=MSI+RAM+6",
+    "price": 141
+  },
+  {
+    "id": 257,
+    "name": "MSI RAM Model 7",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=MSI+RAM+7",
+    "price": 157
+  },
+  {
+    "id": 258,
+    "name": "MSI RAM Model 8",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=MSI+RAM+8",
+    "price": 173
+  },
+  {
+    "id": 259,
+    "name": "MSI RAM Model 9",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=MSI+RAM+9",
+    "price": 189
+  },
+  {
+    "id": 260,
+    "name": "MSI RAM Model 10",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=MSI+RAM+10",
+    "price": 185
+  },
+  {
+    "id": 261,
+    "name": "EVGA RAM Model 1",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=EVGA+RAM+1",
+    "price": 51
+  },
+  {
+    "id": 262,
+    "name": "EVGA RAM Model 2",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=EVGA+RAM+2",
+    "price": 67
+  },
+  {
+    "id": 263,
+    "name": "EVGA RAM Model 3",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=EVGA+RAM+3",
+    "price": 83
+  },
+  {
+    "id": 264,
+    "name": "EVGA RAM Model 4",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=EVGA+RAM+4",
+    "price": 99
+  },
+  {
+    "id": 265,
+    "name": "EVGA RAM Model 5",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=EVGA+RAM+5",
+    "price": 115
+  },
+  {
+    "id": 266,
+    "name": "EVGA RAM Model 6",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=EVGA+RAM+6",
+    "price": 131
+  },
+  {
+    "id": 267,
+    "name": "EVGA RAM Model 7",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=EVGA+RAM+7",
+    "price": 147
+  },
+  {
+    "id": 268,
+    "name": "EVGA RAM Model 8",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=EVGA+RAM+8",
+    "price": 163
+  },
+  {
+    "id": 269,
+    "name": "EVGA RAM Model 9",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=EVGA+RAM+9",
+    "price": 179
+  },
+  {
+    "id": 270,
+    "name": "EVGA RAM Model 10",
+    "category": "RAM",
+    "image": "https://via.placeholder.com/100?text=EVGA+RAM+10",
+    "price": 195
+  },
+  {
+    "id": 271,
+    "name": "Intel Storage Model 1",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Intel+Storage+1",
+    "price": 61
+  },
+  {
+    "id": 272,
+    "name": "Intel Storage Model 2",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Intel+Storage+2",
+    "price": 77
+  },
+  {
+    "id": 273,
+    "name": "Intel Storage Model 3",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Intel+Storage+3",
+    "price": 93
+  },
+  {
+    "id": 274,
+    "name": "Intel Storage Model 4",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Intel+Storage+4",
+    "price": 109
+  },
+  {
+    "id": 275,
+    "name": "Intel Storage Model 5",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Intel+Storage+5",
+    "price": 125
+  },
+  {
+    "id": 276,
+    "name": "Intel Storage Model 6",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Intel+Storage+6",
+    "price": 141
+  },
+  {
+    "id": 277,
+    "name": "Intel Storage Model 7",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Intel+Storage+7",
+    "price": 157
+  },
+  {
+    "id": 278,
+    "name": "Intel Storage Model 8",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Intel+Storage+8",
+    "price": 173
+  },
+  {
+    "id": 279,
+    "name": "Intel Storage Model 9",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Intel+Storage+9",
+    "price": 189
+  },
+  {
+    "id": 280,
+    "name": "Intel Storage Model 10",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Intel+Storage+10",
+    "price": 185
+  },
+  {
+    "id": 281,
+    "name": "AMD Storage Model 1",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=AMD+Storage+1",
+    "price": 51
+  },
+  {
+    "id": 282,
+    "name": "AMD Storage Model 2",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=AMD+Storage+2",
+    "price": 67
+  },
+  {
+    "id": 283,
+    "name": "AMD Storage Model 3",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=AMD+Storage+3",
+    "price": 83
+  },
+  {
+    "id": 284,
+    "name": "AMD Storage Model 4",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=AMD+Storage+4",
+    "price": 99
+  },
+  {
+    "id": 285,
+    "name": "AMD Storage Model 5",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=AMD+Storage+5",
+    "price": 115
+  },
+  {
+    "id": 286,
+    "name": "AMD Storage Model 6",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=AMD+Storage+6",
+    "price": 131
+  },
+  {
+    "id": 287,
+    "name": "AMD Storage Model 7",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=AMD+Storage+7",
+    "price": 147
+  },
+  {
+    "id": 288,
+    "name": "AMD Storage Model 8",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=AMD+Storage+8",
+    "price": 163
+  },
+  {
+    "id": 289,
+    "name": "AMD Storage Model 9",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=AMD+Storage+9",
+    "price": 179
+  },
+  {
+    "id": 290,
+    "name": "AMD Storage Model 10",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=AMD+Storage+10",
+    "price": 195
+  },
+  {
+    "id": 291,
+    "name": "NVIDIA Storage Model 1",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Storage+1",
+    "price": 61
+  },
+  {
+    "id": 292,
+    "name": "NVIDIA Storage Model 2",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Storage+2",
+    "price": 77
+  },
+  {
+    "id": 293,
+    "name": "NVIDIA Storage Model 3",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Storage+3",
+    "price": 93
+  },
+  {
+    "id": 294,
+    "name": "NVIDIA Storage Model 4",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Storage+4",
+    "price": 109
+  },
+  {
+    "id": 295,
+    "name": "NVIDIA Storage Model 5",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Storage+5",
+    "price": 125
+  },
+  {
+    "id": 296,
+    "name": "NVIDIA Storage Model 6",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Storage+6",
+    "price": 141
+  },
+  {
+    "id": 297,
+    "name": "NVIDIA Storage Model 7",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Storage+7",
+    "price": 157
+  },
+  {
+    "id": 298,
+    "name": "NVIDIA Storage Model 8",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Storage+8",
+    "price": 173
+  },
+  {
+    "id": 299,
+    "name": "NVIDIA Storage Model 9",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Storage+9",
+    "price": 189
+  },
+  {
+    "id": 300,
+    "name": "NVIDIA Storage Model 10",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Storage+10",
+    "price": 185
+  },
+  {
+    "id": 301,
+    "name": "Corsair Storage Model 1",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Corsair+Storage+1",
+    "price": 51
+  },
+  {
+    "id": 302,
+    "name": "Corsair Storage Model 2",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Corsair+Storage+2",
+    "price": 67
+  },
+  {
+    "id": 303,
+    "name": "Corsair Storage Model 3",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Corsair+Storage+3",
+    "price": 83
+  },
+  {
+    "id": 304,
+    "name": "Corsair Storage Model 4",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Corsair+Storage+4",
+    "price": 99
+  },
+  {
+    "id": 305,
+    "name": "Corsair Storage Model 5",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Corsair+Storage+5",
+    "price": 115
+  },
+  {
+    "id": 306,
+    "name": "Corsair Storage Model 6",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Corsair+Storage+6",
+    "price": 131
+  },
+  {
+    "id": 307,
+    "name": "Corsair Storage Model 7",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Corsair+Storage+7",
+    "price": 147
+  },
+  {
+    "id": 308,
+    "name": "Corsair Storage Model 8",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Corsair+Storage+8",
+    "price": 163
+  },
+  {
+    "id": 309,
+    "name": "Corsair Storage Model 9",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Corsair+Storage+9",
+    "price": 179
+  },
+  {
+    "id": 310,
+    "name": "Corsair Storage Model 10",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Corsair+Storage+10",
+    "price": 195
+  },
+  {
+    "id": 311,
+    "name": "Samsung Storage Model 1",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Samsung+Storage+1",
+    "price": 61
+  },
+  {
+    "id": 312,
+    "name": "Samsung Storage Model 2",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Samsung+Storage+2",
+    "price": 77
+  },
+  {
+    "id": 313,
+    "name": "Samsung Storage Model 3",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Samsung+Storage+3",
+    "price": 93
+  },
+  {
+    "id": 314,
+    "name": "Samsung Storage Model 4",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Samsung+Storage+4",
+    "price": 109
+  },
+  {
+    "id": 315,
+    "name": "Samsung Storage Model 5",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Samsung+Storage+5",
+    "price": 125
+  },
+  {
+    "id": 316,
+    "name": "Samsung Storage Model 6",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Samsung+Storage+6",
+    "price": 141
+  },
+  {
+    "id": 317,
+    "name": "Samsung Storage Model 7",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Samsung+Storage+7",
+    "price": 157
+  },
+  {
+    "id": 318,
+    "name": "Samsung Storage Model 8",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Samsung+Storage+8",
+    "price": 173
+  },
+  {
+    "id": 319,
+    "name": "Samsung Storage Model 9",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Samsung+Storage+9",
+    "price": 189
+  },
+  {
+    "id": 320,
+    "name": "Samsung Storage Model 10",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Samsung+Storage+10",
+    "price": 185
+  },
+  {
+    "id": 321,
+    "name": "Seagate Storage Model 1",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Seagate+Storage+1",
+    "price": 51
+  },
+  {
+    "id": 322,
+    "name": "Seagate Storage Model 2",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Seagate+Storage+2",
+    "price": 67
+  },
+  {
+    "id": 323,
+    "name": "Seagate Storage Model 3",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Seagate+Storage+3",
+    "price": 83
+  },
+  {
+    "id": 324,
+    "name": "Seagate Storage Model 4",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Seagate+Storage+4",
+    "price": 99
+  },
+  {
+    "id": 325,
+    "name": "Seagate Storage Model 5",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Seagate+Storage+5",
+    "price": 115
+  },
+  {
+    "id": 326,
+    "name": "Seagate Storage Model 6",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Seagate+Storage+6",
+    "price": 131
+  },
+  {
+    "id": 327,
+    "name": "Seagate Storage Model 7",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Seagate+Storage+7",
+    "price": 147
+  },
+  {
+    "id": 328,
+    "name": "Seagate Storage Model 8",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Seagate+Storage+8",
+    "price": 163
+  },
+  {
+    "id": 329,
+    "name": "Seagate Storage Model 9",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Seagate+Storage+9",
+    "price": 179
+  },
+  {
+    "id": 330,
+    "name": "Seagate Storage Model 10",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=Seagate+Storage+10",
+    "price": 195
+  },
+  {
+    "id": 331,
+    "name": "ASUS Storage Model 1",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=ASUS+Storage+1",
+    "price": 61
+  },
+  {
+    "id": 332,
+    "name": "ASUS Storage Model 2",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=ASUS+Storage+2",
+    "price": 77
+  },
+  {
+    "id": 333,
+    "name": "ASUS Storage Model 3",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=ASUS+Storage+3",
+    "price": 93
+  },
+  {
+    "id": 334,
+    "name": "ASUS Storage Model 4",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=ASUS+Storage+4",
+    "price": 109
+  },
+  {
+    "id": 335,
+    "name": "ASUS Storage Model 5",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=ASUS+Storage+5",
+    "price": 125
+  },
+  {
+    "id": 336,
+    "name": "ASUS Storage Model 6",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=ASUS+Storage+6",
+    "price": 141
+  },
+  {
+    "id": 337,
+    "name": "ASUS Storage Model 7",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=ASUS+Storage+7",
+    "price": 157
+  },
+  {
+    "id": 338,
+    "name": "ASUS Storage Model 8",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=ASUS+Storage+8",
+    "price": 173
+  },
+  {
+    "id": 339,
+    "name": "ASUS Storage Model 9",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=ASUS+Storage+9",
+    "price": 189
+  },
+  {
+    "id": 340,
+    "name": "ASUS Storage Model 10",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=ASUS+Storage+10",
+    "price": 185
+  },
+  {
+    "id": 341,
+    "name": "MSI Storage Model 1",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=MSI+Storage+1",
+    "price": 51
+  },
+  {
+    "id": 342,
+    "name": "MSI Storage Model 2",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=MSI+Storage+2",
+    "price": 67
+  },
+  {
+    "id": 343,
+    "name": "MSI Storage Model 3",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=MSI+Storage+3",
+    "price": 83
+  },
+  {
+    "id": 344,
+    "name": "MSI Storage Model 4",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=MSI+Storage+4",
+    "price": 99
+  },
+  {
+    "id": 345,
+    "name": "MSI Storage Model 5",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=MSI+Storage+5",
+    "price": 115
+  },
+  {
+    "id": 346,
+    "name": "MSI Storage Model 6",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=MSI+Storage+6",
+    "price": 131
+  },
+  {
+    "id": 347,
+    "name": "MSI Storage Model 7",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=MSI+Storage+7",
+    "price": 147
+  },
+  {
+    "id": 348,
+    "name": "MSI Storage Model 8",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=MSI+Storage+8",
+    "price": 163
+  },
+  {
+    "id": 349,
+    "name": "MSI Storage Model 9",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=MSI+Storage+9",
+    "price": 179
+  },
+  {
+    "id": 350,
+    "name": "MSI Storage Model 10",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=MSI+Storage+10",
+    "price": 195
+  },
+  {
+    "id": 351,
+    "name": "EVGA Storage Model 1",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=EVGA+Storage+1",
+    "price": 61
+  },
+  {
+    "id": 352,
+    "name": "EVGA Storage Model 2",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=EVGA+Storage+2",
+    "price": 77
+  },
+  {
+    "id": 353,
+    "name": "EVGA Storage Model 3",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=EVGA+Storage+3",
+    "price": 93
+  },
+  {
+    "id": 354,
+    "name": "EVGA Storage Model 4",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=EVGA+Storage+4",
+    "price": 109
+  },
+  {
+    "id": 355,
+    "name": "EVGA Storage Model 5",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=EVGA+Storage+5",
+    "price": 125
+  },
+  {
+    "id": 356,
+    "name": "EVGA Storage Model 6",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=EVGA+Storage+6",
+    "price": 141
+  },
+  {
+    "id": 357,
+    "name": "EVGA Storage Model 7",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=EVGA+Storage+7",
+    "price": 157
+  },
+  {
+    "id": 358,
+    "name": "EVGA Storage Model 8",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=EVGA+Storage+8",
+    "price": 173
+  },
+  {
+    "id": 359,
+    "name": "EVGA Storage Model 9",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=EVGA+Storage+9",
+    "price": 189
+  },
+  {
+    "id": 360,
+    "name": "EVGA Storage Model 10",
+    "category": "Storage",
+    "image": "https://via.placeholder.com/100?text=EVGA+Storage+10",
+    "price": 185
+  },
+  {
+    "id": 361,
+    "name": "Intel Motherboard Model 1",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Intel+Motherboard+1",
+    "price": 51
+  },
+  {
+    "id": 362,
+    "name": "Intel Motherboard Model 2",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Intel+Motherboard+2",
+    "price": 67
+  },
+  {
+    "id": 363,
+    "name": "Intel Motherboard Model 3",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Intel+Motherboard+3",
+    "price": 83
+  },
+  {
+    "id": 364,
+    "name": "Intel Motherboard Model 4",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Intel+Motherboard+4",
+    "price": 99
+  },
+  {
+    "id": 365,
+    "name": "Intel Motherboard Model 5",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Intel+Motherboard+5",
+    "price": 115
+  },
+  {
+    "id": 366,
+    "name": "Intel Motherboard Model 6",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Intel+Motherboard+6",
+    "price": 131
+  },
+  {
+    "id": 367,
+    "name": "Intel Motherboard Model 7",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Intel+Motherboard+7",
+    "price": 147
+  },
+  {
+    "id": 368,
+    "name": "Intel Motherboard Model 8",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Intel+Motherboard+8",
+    "price": 163
+  },
+  {
+    "id": 369,
+    "name": "Intel Motherboard Model 9",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Intel+Motherboard+9",
+    "price": 179
+  },
+  {
+    "id": 370,
+    "name": "Intel Motherboard Model 10",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Intel+Motherboard+10",
+    "price": 195
+  },
+  {
+    "id": 371,
+    "name": "AMD Motherboard Model 1",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=AMD+Motherboard+1",
+    "price": 61
+  },
+  {
+    "id": 372,
+    "name": "AMD Motherboard Model 2",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=AMD+Motherboard+2",
+    "price": 77
+  },
+  {
+    "id": 373,
+    "name": "AMD Motherboard Model 3",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=AMD+Motherboard+3",
+    "price": 93
+  },
+  {
+    "id": 374,
+    "name": "AMD Motherboard Model 4",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=AMD+Motherboard+4",
+    "price": 109
+  },
+  {
+    "id": 375,
+    "name": "AMD Motherboard Model 5",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=AMD+Motherboard+5",
+    "price": 125
+  },
+  {
+    "id": 376,
+    "name": "AMD Motherboard Model 6",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=AMD+Motherboard+6",
+    "price": 141
+  },
+  {
+    "id": 377,
+    "name": "AMD Motherboard Model 7",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=AMD+Motherboard+7",
+    "price": 157
+  },
+  {
+    "id": 378,
+    "name": "AMD Motherboard Model 8",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=AMD+Motherboard+8",
+    "price": 173
+  },
+  {
+    "id": 379,
+    "name": "AMD Motherboard Model 9",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=AMD+Motherboard+9",
+    "price": 189
+  },
+  {
+    "id": 380,
+    "name": "AMD Motherboard Model 10",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=AMD+Motherboard+10",
+    "price": 185
+  },
+  {
+    "id": 381,
+    "name": "NVIDIA Motherboard Model 1",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Motherboard+1",
+    "price": 51
+  },
+  {
+    "id": 382,
+    "name": "NVIDIA Motherboard Model 2",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Motherboard+2",
+    "price": 67
+  },
+  {
+    "id": 383,
+    "name": "NVIDIA Motherboard Model 3",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Motherboard+3",
+    "price": 83
+  },
+  {
+    "id": 384,
+    "name": "NVIDIA Motherboard Model 4",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Motherboard+4",
+    "price": 99
+  },
+  {
+    "id": 385,
+    "name": "NVIDIA Motherboard Model 5",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Motherboard+5",
+    "price": 115
+  },
+  {
+    "id": 386,
+    "name": "NVIDIA Motherboard Model 6",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Motherboard+6",
+    "price": 131
+  },
+  {
+    "id": 387,
+    "name": "NVIDIA Motherboard Model 7",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Motherboard+7",
+    "price": 147
+  },
+  {
+    "id": 388,
+    "name": "NVIDIA Motherboard Model 8",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Motherboard+8",
+    "price": 163
+  },
+  {
+    "id": 389,
+    "name": "NVIDIA Motherboard Model 9",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Motherboard+9",
+    "price": 179
+  },
+  {
+    "id": 390,
+    "name": "NVIDIA Motherboard Model 10",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Motherboard+10",
+    "price": 195
+  },
+  {
+    "id": 391,
+    "name": "Corsair Motherboard Model 1",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Corsair+Motherboard+1",
+    "price": 61
+  },
+  {
+    "id": 392,
+    "name": "Corsair Motherboard Model 2",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Corsair+Motherboard+2",
+    "price": 77
+  },
+  {
+    "id": 393,
+    "name": "Corsair Motherboard Model 3",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Corsair+Motherboard+3",
+    "price": 93
+  },
+  {
+    "id": 394,
+    "name": "Corsair Motherboard Model 4",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Corsair+Motherboard+4",
+    "price": 109
+  },
+  {
+    "id": 395,
+    "name": "Corsair Motherboard Model 5",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Corsair+Motherboard+5",
+    "price": 125
+  },
+  {
+    "id": 396,
+    "name": "Corsair Motherboard Model 6",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Corsair+Motherboard+6",
+    "price": 141
+  },
+  {
+    "id": 397,
+    "name": "Corsair Motherboard Model 7",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Corsair+Motherboard+7",
+    "price": 157
+  },
+  {
+    "id": 398,
+    "name": "Corsair Motherboard Model 8",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Corsair+Motherboard+8",
+    "price": 173
+  },
+  {
+    "id": 399,
+    "name": "Corsair Motherboard Model 9",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Corsair+Motherboard+9",
+    "price": 189
+  },
+  {
+    "id": 400,
+    "name": "Corsair Motherboard Model 10",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Corsair+Motherboard+10",
+    "price": 185
+  },
+  {
+    "id": 401,
+    "name": "Samsung Motherboard Model 1",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Samsung+Motherboard+1",
+    "price": 51
+  },
+  {
+    "id": 402,
+    "name": "Samsung Motherboard Model 2",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Samsung+Motherboard+2",
+    "price": 67
+  },
+  {
+    "id": 403,
+    "name": "Samsung Motherboard Model 3",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Samsung+Motherboard+3",
+    "price": 83
+  },
+  {
+    "id": 404,
+    "name": "Samsung Motherboard Model 4",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Samsung+Motherboard+4",
+    "price": 99
+  },
+  {
+    "id": 405,
+    "name": "Samsung Motherboard Model 5",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Samsung+Motherboard+5",
+    "price": 115
+  },
+  {
+    "id": 406,
+    "name": "Samsung Motherboard Model 6",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Samsung+Motherboard+6",
+    "price": 131
+  },
+  {
+    "id": 407,
+    "name": "Samsung Motherboard Model 7",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Samsung+Motherboard+7",
+    "price": 147
+  },
+  {
+    "id": 408,
+    "name": "Samsung Motherboard Model 8",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Samsung+Motherboard+8",
+    "price": 163
+  },
+  {
+    "id": 409,
+    "name": "Samsung Motherboard Model 9",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Samsung+Motherboard+9",
+    "price": 179
+  },
+  {
+    "id": 410,
+    "name": "Samsung Motherboard Model 10",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Samsung+Motherboard+10",
+    "price": 195
+  },
+  {
+    "id": 411,
+    "name": "Seagate Motherboard Model 1",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Seagate+Motherboard+1",
+    "price": 61
+  },
+  {
+    "id": 412,
+    "name": "Seagate Motherboard Model 2",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Seagate+Motherboard+2",
+    "price": 77
+  },
+  {
+    "id": 413,
+    "name": "Seagate Motherboard Model 3",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Seagate+Motherboard+3",
+    "price": 93
+  },
+  {
+    "id": 414,
+    "name": "Seagate Motherboard Model 4",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Seagate+Motherboard+4",
+    "price": 109
+  },
+  {
+    "id": 415,
+    "name": "Seagate Motherboard Model 5",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Seagate+Motherboard+5",
+    "price": 125
+  },
+  {
+    "id": 416,
+    "name": "Seagate Motherboard Model 6",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Seagate+Motherboard+6",
+    "price": 141
+  },
+  {
+    "id": 417,
+    "name": "Seagate Motherboard Model 7",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Seagate+Motherboard+7",
+    "price": 157
+  },
+  {
+    "id": 418,
+    "name": "Seagate Motherboard Model 8",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Seagate+Motherboard+8",
+    "price": 173
+  },
+  {
+    "id": 419,
+    "name": "Seagate Motherboard Model 9",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Seagate+Motherboard+9",
+    "price": 189
+  },
+  {
+    "id": 420,
+    "name": "Seagate Motherboard Model 10",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=Seagate+Motherboard+10",
+    "price": 185
+  },
+  {
+    "id": 421,
+    "name": "ASUS Motherboard Model 1",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=ASUS+Motherboard+1",
+    "price": 51
+  },
+  {
+    "id": 422,
+    "name": "ASUS Motherboard Model 2",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=ASUS+Motherboard+2",
+    "price": 67
+  },
+  {
+    "id": 423,
+    "name": "ASUS Motherboard Model 3",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=ASUS+Motherboard+3",
+    "price": 83
+  },
+  {
+    "id": 424,
+    "name": "ASUS Motherboard Model 4",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=ASUS+Motherboard+4",
+    "price": 99
+  },
+  {
+    "id": 425,
+    "name": "ASUS Motherboard Model 5",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=ASUS+Motherboard+5",
+    "price": 115
+  },
+  {
+    "id": 426,
+    "name": "ASUS Motherboard Model 6",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=ASUS+Motherboard+6",
+    "price": 131
+  },
+  {
+    "id": 427,
+    "name": "ASUS Motherboard Model 7",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=ASUS+Motherboard+7",
+    "price": 147
+  },
+  {
+    "id": 428,
+    "name": "ASUS Motherboard Model 8",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=ASUS+Motherboard+8",
+    "price": 163
+  },
+  {
+    "id": 429,
+    "name": "ASUS Motherboard Model 9",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=ASUS+Motherboard+9",
+    "price": 179
+  },
+  {
+    "id": 430,
+    "name": "ASUS Motherboard Model 10",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=ASUS+Motherboard+10",
+    "price": 195
+  },
+  {
+    "id": 431,
+    "name": "MSI Motherboard Model 1",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=MSI+Motherboard+1",
+    "price": 61
+  },
+  {
+    "id": 432,
+    "name": "MSI Motherboard Model 2",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=MSI+Motherboard+2",
+    "price": 77
+  },
+  {
+    "id": 433,
+    "name": "MSI Motherboard Model 3",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=MSI+Motherboard+3",
+    "price": 93
+  },
+  {
+    "id": 434,
+    "name": "MSI Motherboard Model 4",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=MSI+Motherboard+4",
+    "price": 109
+  },
+  {
+    "id": 435,
+    "name": "MSI Motherboard Model 5",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=MSI+Motherboard+5",
+    "price": 125
+  },
+  {
+    "id": 436,
+    "name": "MSI Motherboard Model 6",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=MSI+Motherboard+6",
+    "price": 141
+  },
+  {
+    "id": 437,
+    "name": "MSI Motherboard Model 7",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=MSI+Motherboard+7",
+    "price": 157
+  },
+  {
+    "id": 438,
+    "name": "MSI Motherboard Model 8",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=MSI+Motherboard+8",
+    "price": 173
+  },
+  {
+    "id": 439,
+    "name": "MSI Motherboard Model 9",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=MSI+Motherboard+9",
+    "price": 189
+  },
+  {
+    "id": 440,
+    "name": "MSI Motherboard Model 10",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=MSI+Motherboard+10",
+    "price": 185
+  },
+  {
+    "id": 441,
+    "name": "EVGA Motherboard Model 1",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=EVGA+Motherboard+1",
+    "price": 51
+  },
+  {
+    "id": 442,
+    "name": "EVGA Motherboard Model 2",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=EVGA+Motherboard+2",
+    "price": 67
+  },
+  {
+    "id": 443,
+    "name": "EVGA Motherboard Model 3",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=EVGA+Motherboard+3",
+    "price": 83
+  },
+  {
+    "id": 444,
+    "name": "EVGA Motherboard Model 4",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=EVGA+Motherboard+4",
+    "price": 99
+  },
+  {
+    "id": 445,
+    "name": "EVGA Motherboard Model 5",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=EVGA+Motherboard+5",
+    "price": 115
+  },
+  {
+    "id": 446,
+    "name": "EVGA Motherboard Model 6",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=EVGA+Motherboard+6",
+    "price": 131
+  },
+  {
+    "id": 447,
+    "name": "EVGA Motherboard Model 7",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=EVGA+Motherboard+7",
+    "price": 147
+  },
+  {
+    "id": 448,
+    "name": "EVGA Motherboard Model 8",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=EVGA+Motherboard+8",
+    "price": 163
+  },
+  {
+    "id": 449,
+    "name": "EVGA Motherboard Model 9",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=EVGA+Motherboard+9",
+    "price": 179
+  },
+  {
+    "id": 450,
+    "name": "EVGA Motherboard Model 10",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/100?text=EVGA+Motherboard+10",
+    "price": 195
+  },
+  {
+    "id": 451,
+    "name": "Intel Power Supply Model 1",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Intel+Power Supply+1",
+    "price": 61
+  },
+  {
+    "id": 452,
+    "name": "Intel Power Supply Model 2",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Intel+Power Supply+2",
+    "price": 77
+  },
+  {
+    "id": 453,
+    "name": "Intel Power Supply Model 3",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Intel+Power Supply+3",
+    "price": 93
+  },
+  {
+    "id": 454,
+    "name": "Intel Power Supply Model 4",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Intel+Power Supply+4",
+    "price": 109
+  },
+  {
+    "id": 455,
+    "name": "Intel Power Supply Model 5",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Intel+Power Supply+5",
+    "price": 125
+  },
+  {
+    "id": 456,
+    "name": "Intel Power Supply Model 6",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Intel+Power Supply+6",
+    "price": 141
+  },
+  {
+    "id": 457,
+    "name": "Intel Power Supply Model 7",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Intel+Power Supply+7",
+    "price": 157
+  },
+  {
+    "id": 458,
+    "name": "Intel Power Supply Model 8",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Intel+Power Supply+8",
+    "price": 173
+  },
+  {
+    "id": 459,
+    "name": "Intel Power Supply Model 9",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Intel+Power Supply+9",
+    "price": 189
+  },
+  {
+    "id": 460,
+    "name": "Intel Power Supply Model 10",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Intel+Power Supply+10",
+    "price": 185
+  },
+  {
+    "id": 461,
+    "name": "AMD Power Supply Model 1",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=AMD+Power Supply+1",
+    "price": 51
+  },
+  {
+    "id": 462,
+    "name": "AMD Power Supply Model 2",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=AMD+Power Supply+2",
+    "price": 67
+  },
+  {
+    "id": 463,
+    "name": "AMD Power Supply Model 3",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=AMD+Power Supply+3",
+    "price": 83
+  },
+  {
+    "id": 464,
+    "name": "AMD Power Supply Model 4",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=AMD+Power Supply+4",
+    "price": 99
+  },
+  {
+    "id": 465,
+    "name": "AMD Power Supply Model 5",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=AMD+Power Supply+5",
+    "price": 115
+  },
+  {
+    "id": 466,
+    "name": "AMD Power Supply Model 6",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=AMD+Power Supply+6",
+    "price": 131
+  },
+  {
+    "id": 467,
+    "name": "AMD Power Supply Model 7",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=AMD+Power Supply+7",
+    "price": 147
+  },
+  {
+    "id": 468,
+    "name": "AMD Power Supply Model 8",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=AMD+Power Supply+8",
+    "price": 163
+  },
+  {
+    "id": 469,
+    "name": "AMD Power Supply Model 9",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=AMD+Power Supply+9",
+    "price": 179
+  },
+  {
+    "id": 470,
+    "name": "AMD Power Supply Model 10",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=AMD+Power Supply+10",
+    "price": 195
+  },
+  {
+    "id": 471,
+    "name": "NVIDIA Power Supply Model 1",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Power Supply+1",
+    "price": 61
+  },
+  {
+    "id": 472,
+    "name": "NVIDIA Power Supply Model 2",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Power Supply+2",
+    "price": 77
+  },
+  {
+    "id": 473,
+    "name": "NVIDIA Power Supply Model 3",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Power Supply+3",
+    "price": 93
+  },
+  {
+    "id": 474,
+    "name": "NVIDIA Power Supply Model 4",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Power Supply+4",
+    "price": 109
+  },
+  {
+    "id": 475,
+    "name": "NVIDIA Power Supply Model 5",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Power Supply+5",
+    "price": 125
+  },
+  {
+    "id": 476,
+    "name": "NVIDIA Power Supply Model 6",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Power Supply+6",
+    "price": 141
+  },
+  {
+    "id": 477,
+    "name": "NVIDIA Power Supply Model 7",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Power Supply+7",
+    "price": 157
+  },
+  {
+    "id": 478,
+    "name": "NVIDIA Power Supply Model 8",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Power Supply+8",
+    "price": 173
+  },
+  {
+    "id": 479,
+    "name": "NVIDIA Power Supply Model 9",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Power Supply+9",
+    "price": 189
+  },
+  {
+    "id": 480,
+    "name": "NVIDIA Power Supply Model 10",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Power Supply+10",
+    "price": 185
+  },
+  {
+    "id": 481,
+    "name": "Corsair Power Supply Model 1",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Corsair+Power Supply+1",
+    "price": 51
+  },
+  {
+    "id": 482,
+    "name": "Corsair Power Supply Model 2",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Corsair+Power Supply+2",
+    "price": 67
+  },
+  {
+    "id": 483,
+    "name": "Corsair Power Supply Model 3",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Corsair+Power Supply+3",
+    "price": 83
+  },
+  {
+    "id": 484,
+    "name": "Corsair Power Supply Model 4",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Corsair+Power Supply+4",
+    "price": 99
+  },
+  {
+    "id": 485,
+    "name": "Corsair Power Supply Model 5",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Corsair+Power Supply+5",
+    "price": 115
+  },
+  {
+    "id": 486,
+    "name": "Corsair Power Supply Model 6",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Corsair+Power Supply+6",
+    "price": 131
+  },
+  {
+    "id": 487,
+    "name": "Corsair Power Supply Model 7",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Corsair+Power Supply+7",
+    "price": 147
+  },
+  {
+    "id": 488,
+    "name": "Corsair Power Supply Model 8",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Corsair+Power Supply+8",
+    "price": 163
+  },
+  {
+    "id": 489,
+    "name": "Corsair Power Supply Model 9",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Corsair+Power Supply+9",
+    "price": 179
+  },
+  {
+    "id": 490,
+    "name": "Corsair Power Supply Model 10",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Corsair+Power Supply+10",
+    "price": 195
+  },
+  {
+    "id": 491,
+    "name": "Samsung Power Supply Model 1",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Samsung+Power Supply+1",
+    "price": 61
+  },
+  {
+    "id": 492,
+    "name": "Samsung Power Supply Model 2",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Samsung+Power Supply+2",
+    "price": 77
+  },
+  {
+    "id": 493,
+    "name": "Samsung Power Supply Model 3",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Samsung+Power Supply+3",
+    "price": 93
+  },
+  {
+    "id": 494,
+    "name": "Samsung Power Supply Model 4",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Samsung+Power Supply+4",
+    "price": 109
+  },
+  {
+    "id": 495,
+    "name": "Samsung Power Supply Model 5",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Samsung+Power Supply+5",
+    "price": 125
+  },
+  {
+    "id": 496,
+    "name": "Samsung Power Supply Model 6",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Samsung+Power Supply+6",
+    "price": 141
+  },
+  {
+    "id": 497,
+    "name": "Samsung Power Supply Model 7",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Samsung+Power Supply+7",
+    "price": 157
+  },
+  {
+    "id": 498,
+    "name": "Samsung Power Supply Model 8",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Samsung+Power Supply+8",
+    "price": 173
+  },
+  {
+    "id": 499,
+    "name": "Samsung Power Supply Model 9",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Samsung+Power Supply+9",
+    "price": 189
+  },
+  {
+    "id": 500,
+    "name": "Samsung Power Supply Model 10",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Samsung+Power Supply+10",
+    "price": 185
+  },
+  {
+    "id": 501,
+    "name": "Seagate Power Supply Model 1",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Seagate+Power Supply+1",
+    "price": 51
+  },
+  {
+    "id": 502,
+    "name": "Seagate Power Supply Model 2",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Seagate+Power Supply+2",
+    "price": 67
+  },
+  {
+    "id": 503,
+    "name": "Seagate Power Supply Model 3",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Seagate+Power Supply+3",
+    "price": 83
+  },
+  {
+    "id": 504,
+    "name": "Seagate Power Supply Model 4",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Seagate+Power Supply+4",
+    "price": 99
+  },
+  {
+    "id": 505,
+    "name": "Seagate Power Supply Model 5",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Seagate+Power Supply+5",
+    "price": 115
+  },
+  {
+    "id": 506,
+    "name": "Seagate Power Supply Model 6",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Seagate+Power Supply+6",
+    "price": 131
+  },
+  {
+    "id": 507,
+    "name": "Seagate Power Supply Model 7",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Seagate+Power Supply+7",
+    "price": 147
+  },
+  {
+    "id": 508,
+    "name": "Seagate Power Supply Model 8",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Seagate+Power Supply+8",
+    "price": 163
+  },
+  {
+    "id": 509,
+    "name": "Seagate Power Supply Model 9",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Seagate+Power Supply+9",
+    "price": 179
+  },
+  {
+    "id": 510,
+    "name": "Seagate Power Supply Model 10",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=Seagate+Power Supply+10",
+    "price": 195
+  },
+  {
+    "id": 511,
+    "name": "ASUS Power Supply Model 1",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=ASUS+Power Supply+1",
+    "price": 61
+  },
+  {
+    "id": 512,
+    "name": "ASUS Power Supply Model 2",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=ASUS+Power Supply+2",
+    "price": 77
+  },
+  {
+    "id": 513,
+    "name": "ASUS Power Supply Model 3",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=ASUS+Power Supply+3",
+    "price": 93
+  },
+  {
+    "id": 514,
+    "name": "ASUS Power Supply Model 4",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=ASUS+Power Supply+4",
+    "price": 109
+  },
+  {
+    "id": 515,
+    "name": "ASUS Power Supply Model 5",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=ASUS+Power Supply+5",
+    "price": 125
+  },
+  {
+    "id": 516,
+    "name": "ASUS Power Supply Model 6",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=ASUS+Power Supply+6",
+    "price": 141
+  },
+  {
+    "id": 517,
+    "name": "ASUS Power Supply Model 7",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=ASUS+Power Supply+7",
+    "price": 157
+  },
+  {
+    "id": 518,
+    "name": "ASUS Power Supply Model 8",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=ASUS+Power Supply+8",
+    "price": 173
+  },
+  {
+    "id": 519,
+    "name": "ASUS Power Supply Model 9",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=ASUS+Power Supply+9",
+    "price": 189
+  },
+  {
+    "id": 520,
+    "name": "ASUS Power Supply Model 10",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=ASUS+Power Supply+10",
+    "price": 185
+  },
+  {
+    "id": 521,
+    "name": "MSI Power Supply Model 1",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=MSI+Power Supply+1",
+    "price": 51
+  },
+  {
+    "id": 522,
+    "name": "MSI Power Supply Model 2",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=MSI+Power Supply+2",
+    "price": 67
+  },
+  {
+    "id": 523,
+    "name": "MSI Power Supply Model 3",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=MSI+Power Supply+3",
+    "price": 83
+  },
+  {
+    "id": 524,
+    "name": "MSI Power Supply Model 4",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=MSI+Power Supply+4",
+    "price": 99
+  },
+  {
+    "id": 525,
+    "name": "MSI Power Supply Model 5",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=MSI+Power Supply+5",
+    "price": 115
+  },
+  {
+    "id": 526,
+    "name": "MSI Power Supply Model 6",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=MSI+Power Supply+6",
+    "price": 131
+  },
+  {
+    "id": 527,
+    "name": "MSI Power Supply Model 7",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=MSI+Power Supply+7",
+    "price": 147
+  },
+  {
+    "id": 528,
+    "name": "MSI Power Supply Model 8",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=MSI+Power Supply+8",
+    "price": 163
+  },
+  {
+    "id": 529,
+    "name": "MSI Power Supply Model 9",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=MSI+Power Supply+9",
+    "price": 179
+  },
+  {
+    "id": 530,
+    "name": "MSI Power Supply Model 10",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=MSI+Power Supply+10",
+    "price": 195
+  },
+  {
+    "id": 531,
+    "name": "EVGA Power Supply Model 1",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=EVGA+Power Supply+1",
+    "price": 61
+  },
+  {
+    "id": 532,
+    "name": "EVGA Power Supply Model 2",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=EVGA+Power Supply+2",
+    "price": 77
+  },
+  {
+    "id": 533,
+    "name": "EVGA Power Supply Model 3",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=EVGA+Power Supply+3",
+    "price": 93
+  },
+  {
+    "id": 534,
+    "name": "EVGA Power Supply Model 4",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=EVGA+Power Supply+4",
+    "price": 109
+  },
+  {
+    "id": 535,
+    "name": "EVGA Power Supply Model 5",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=EVGA+Power Supply+5",
+    "price": 125
+  },
+  {
+    "id": 536,
+    "name": "EVGA Power Supply Model 6",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=EVGA+Power Supply+6",
+    "price": 141
+  },
+  {
+    "id": 537,
+    "name": "EVGA Power Supply Model 7",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=EVGA+Power Supply+7",
+    "price": 157
+  },
+  {
+    "id": 538,
+    "name": "EVGA Power Supply Model 8",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=EVGA+Power Supply+8",
+    "price": 173
+  },
+  {
+    "id": 539,
+    "name": "EVGA Power Supply Model 9",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=EVGA+Power Supply+9",
+    "price": 189
+  },
+  {
+    "id": 540,
+    "name": "EVGA Power Supply Model 10",
+    "category": "Power Supply",
+    "image": "https://via.placeholder.com/100?text=EVGA+Power Supply+10",
+    "price": 185
+  },
+  {
+    "id": 541,
+    "name": "Intel Case Model 1",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Intel+Case+1",
+    "price": 51
+  },
+  {
+    "id": 542,
+    "name": "Intel Case Model 2",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Intel+Case+2",
+    "price": 67
+  },
+  {
+    "id": 543,
+    "name": "Intel Case Model 3",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Intel+Case+3",
+    "price": 83
+  },
+  {
+    "id": 544,
+    "name": "Intel Case Model 4",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Intel+Case+4",
+    "price": 99
+  },
+  {
+    "id": 545,
+    "name": "Intel Case Model 5",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Intel+Case+5",
+    "price": 115
+  },
+  {
+    "id": 546,
+    "name": "Intel Case Model 6",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Intel+Case+6",
+    "price": 131
+  },
+  {
+    "id": 547,
+    "name": "Intel Case Model 7",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Intel+Case+7",
+    "price": 147
+  },
+  {
+    "id": 548,
+    "name": "Intel Case Model 8",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Intel+Case+8",
+    "price": 163
+  },
+  {
+    "id": 549,
+    "name": "Intel Case Model 9",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Intel+Case+9",
+    "price": 179
+  },
+  {
+    "id": 550,
+    "name": "Intel Case Model 10",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Intel+Case+10",
+    "price": 195
+  },
+  {
+    "id": 551,
+    "name": "AMD Case Model 1",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=AMD+Case+1",
+    "price": 61
+  },
+  {
+    "id": 552,
+    "name": "AMD Case Model 2",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=AMD+Case+2",
+    "price": 77
+  },
+  {
+    "id": 553,
+    "name": "AMD Case Model 3",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=AMD+Case+3",
+    "price": 93
+  },
+  {
+    "id": 554,
+    "name": "AMD Case Model 4",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=AMD+Case+4",
+    "price": 109
+  },
+  {
+    "id": 555,
+    "name": "AMD Case Model 5",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=AMD+Case+5",
+    "price": 125
+  },
+  {
+    "id": 556,
+    "name": "AMD Case Model 6",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=AMD+Case+6",
+    "price": 141
+  },
+  {
+    "id": 557,
+    "name": "AMD Case Model 7",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=AMD+Case+7",
+    "price": 157
+  },
+  {
+    "id": 558,
+    "name": "AMD Case Model 8",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=AMD+Case+8",
+    "price": 173
+  },
+  {
+    "id": 559,
+    "name": "AMD Case Model 9",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=AMD+Case+9",
+    "price": 189
+  },
+  {
+    "id": 560,
+    "name": "AMD Case Model 10",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=AMD+Case+10",
+    "price": 185
+  },
+  {
+    "id": 561,
+    "name": "NVIDIA Case Model 1",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Case+1",
+    "price": 51
+  },
+  {
+    "id": 562,
+    "name": "NVIDIA Case Model 2",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Case+2",
+    "price": 67
+  },
+  {
+    "id": 563,
+    "name": "NVIDIA Case Model 3",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Case+3",
+    "price": 83
+  },
+  {
+    "id": 564,
+    "name": "NVIDIA Case Model 4",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Case+4",
+    "price": 99
+  },
+  {
+    "id": 565,
+    "name": "NVIDIA Case Model 5",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Case+5",
+    "price": 115
+  },
+  {
+    "id": 566,
+    "name": "NVIDIA Case Model 6",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Case+6",
+    "price": 131
+  },
+  {
+    "id": 567,
+    "name": "NVIDIA Case Model 7",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Case+7",
+    "price": 147
+  },
+  {
+    "id": 568,
+    "name": "NVIDIA Case Model 8",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Case+8",
+    "price": 163
+  },
+  {
+    "id": 569,
+    "name": "NVIDIA Case Model 9",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Case+9",
+    "price": 179
+  },
+  {
+    "id": 570,
+    "name": "NVIDIA Case Model 10",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=NVIDIA+Case+10",
+    "price": 195
+  },
+  {
+    "id": 571,
+    "name": "Corsair Case Model 1",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Corsair+Case+1",
+    "price": 61
+  },
+  {
+    "id": 572,
+    "name": "Corsair Case Model 2",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Corsair+Case+2",
+    "price": 77
+  },
+  {
+    "id": 573,
+    "name": "Corsair Case Model 3",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Corsair+Case+3",
+    "price": 93
+  },
+  {
+    "id": 574,
+    "name": "Corsair Case Model 4",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Corsair+Case+4",
+    "price": 109
+  },
+  {
+    "id": 575,
+    "name": "Corsair Case Model 5",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Corsair+Case+5",
+    "price": 125
+  },
+  {
+    "id": 576,
+    "name": "Corsair Case Model 6",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Corsair+Case+6",
+    "price": 141
+  },
+  {
+    "id": 577,
+    "name": "Corsair Case Model 7",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Corsair+Case+7",
+    "price": 157
+  },
+  {
+    "id": 578,
+    "name": "Corsair Case Model 8",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Corsair+Case+8",
+    "price": 173
+  },
+  {
+    "id": 579,
+    "name": "Corsair Case Model 9",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Corsair+Case+9",
+    "price": 189
+  },
+  {
+    "id": 580,
+    "name": "Corsair Case Model 10",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Corsair+Case+10",
+    "price": 185
+  },
+  {
+    "id": 581,
+    "name": "Samsung Case Model 1",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Samsung+Case+1",
+    "price": 51
+  },
+  {
+    "id": 582,
+    "name": "Samsung Case Model 2",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Samsung+Case+2",
+    "price": 67
+  },
+  {
+    "id": 583,
+    "name": "Samsung Case Model 3",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Samsung+Case+3",
+    "price": 83
+  },
+  {
+    "id": 584,
+    "name": "Samsung Case Model 4",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Samsung+Case+4",
+    "price": 99
+  },
+  {
+    "id": 585,
+    "name": "Samsung Case Model 5",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Samsung+Case+5",
+    "price": 115
+  },
+  {
+    "id": 586,
+    "name": "Samsung Case Model 6",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Samsung+Case+6",
+    "price": 131
+  },
+  {
+    "id": 587,
+    "name": "Samsung Case Model 7",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Samsung+Case+7",
+    "price": 147
+  },
+  {
+    "id": 588,
+    "name": "Samsung Case Model 8",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Samsung+Case+8",
+    "price": 163
+  },
+  {
+    "id": 589,
+    "name": "Samsung Case Model 9",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Samsung+Case+9",
+    "price": 179
+  },
+  {
+    "id": 590,
+    "name": "Samsung Case Model 10",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Samsung+Case+10",
+    "price": 195
+  },
+  {
+    "id": 591,
+    "name": "Seagate Case Model 1",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Seagate+Case+1",
+    "price": 61
+  },
+  {
+    "id": 592,
+    "name": "Seagate Case Model 2",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Seagate+Case+2",
+    "price": 77
+  },
+  {
+    "id": 593,
+    "name": "Seagate Case Model 3",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Seagate+Case+3",
+    "price": 93
+  },
+  {
+    "id": 594,
+    "name": "Seagate Case Model 4",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Seagate+Case+4",
+    "price": 109
+  },
+  {
+    "id": 595,
+    "name": "Seagate Case Model 5",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Seagate+Case+5",
+    "price": 125
+  },
+  {
+    "id": 596,
+    "name": "Seagate Case Model 6",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Seagate+Case+6",
+    "price": 141
+  },
+  {
+    "id": 597,
+    "name": "Seagate Case Model 7",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Seagate+Case+7",
+    "price": 157
+  },
+  {
+    "id": 598,
+    "name": "Seagate Case Model 8",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Seagate+Case+8",
+    "price": 173
+  },
+  {
+    "id": 599,
+    "name": "Seagate Case Model 9",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Seagate+Case+9",
+    "price": 189
+  },
+  {
+    "id": 600,
+    "name": "Seagate Case Model 10",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=Seagate+Case+10",
+    "price": 185
+  },
+  {
+    "id": 601,
+    "name": "ASUS Case Model 1",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=ASUS+Case+1",
+    "price": 51
+  },
+  {
+    "id": 602,
+    "name": "ASUS Case Model 2",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=ASUS+Case+2",
+    "price": 67
+  },
+  {
+    "id": 603,
+    "name": "ASUS Case Model 3",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=ASUS+Case+3",
+    "price": 83
+  },
+  {
+    "id": 604,
+    "name": "ASUS Case Model 4",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=ASUS+Case+4",
+    "price": 99
+  },
+  {
+    "id": 605,
+    "name": "ASUS Case Model 5",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=ASUS+Case+5",
+    "price": 115
+  },
+  {
+    "id": 606,
+    "name": "ASUS Case Model 6",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=ASUS+Case+6",
+    "price": 131
+  },
+  {
+    "id": 607,
+    "name": "ASUS Case Model 7",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=ASUS+Case+7",
+    "price": 147
+  },
+  {
+    "id": 608,
+    "name": "ASUS Case Model 8",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=ASUS+Case+8",
+    "price": 163
+  },
+  {
+    "id": 609,
+    "name": "ASUS Case Model 9",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=ASUS+Case+9",
+    "price": 179
+  },
+  {
+    "id": 610,
+    "name": "ASUS Case Model 10",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=ASUS+Case+10",
+    "price": 195
+  },
+  {
+    "id": 611,
+    "name": "MSI Case Model 1",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=MSI+Case+1",
+    "price": 61
+  },
+  {
+    "id": 612,
+    "name": "MSI Case Model 2",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=MSI+Case+2",
+    "price": 77
+  },
+  {
+    "id": 613,
+    "name": "MSI Case Model 3",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=MSI+Case+3",
+    "price": 93
+  },
+  {
+    "id": 614,
+    "name": "MSI Case Model 4",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=MSI+Case+4",
+    "price": 109
+  },
+  {
+    "id": 615,
+    "name": "MSI Case Model 5",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=MSI+Case+5",
+    "price": 125
+  },
+  {
+    "id": 616,
+    "name": "MSI Case Model 6",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=MSI+Case+6",
+    "price": 141
+  },
+  {
+    "id": 617,
+    "name": "MSI Case Model 7",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=MSI+Case+7",
+    "price": 157
+  },
+  {
+    "id": 618,
+    "name": "MSI Case Model 8",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=MSI+Case+8",
+    "price": 173
+  },
+  {
+    "id": 619,
+    "name": "MSI Case Model 9",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=MSI+Case+9",
+    "price": 189
+  },
+  {
+    "id": 620,
+    "name": "MSI Case Model 10",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=MSI+Case+10",
+    "price": 185
+  },
+  {
+    "id": 621,
+    "name": "EVGA Case Model 1",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=EVGA+Case+1",
+    "price": 51
+  },
+  {
+    "id": 622,
+    "name": "EVGA Case Model 2",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=EVGA+Case+2",
+    "price": 67
+  },
+  {
+    "id": 623,
+    "name": "EVGA Case Model 3",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=EVGA+Case+3",
+    "price": 83
+  },
+  {
+    "id": 624,
+    "name": "EVGA Case Model 4",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=EVGA+Case+4",
+    "price": 99
+  },
+  {
+    "id": 625,
+    "name": "EVGA Case Model 5",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=EVGA+Case+5",
+    "price": 115
+  },
+  {
+    "id": 626,
+    "name": "EVGA Case Model 6",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=EVGA+Case+6",
+    "price": 131
+  },
+  {
+    "id": 627,
+    "name": "EVGA Case Model 7",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=EVGA+Case+7",
+    "price": 147
+  },
+  {
+    "id": 628,
+    "name": "EVGA Case Model 8",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=EVGA+Case+8",
+    "price": 163
+  },
+  {
+    "id": 629,
+    "name": "EVGA Case Model 9",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=EVGA+Case+9",
+    "price": 179
+  },
+  {
+    "id": 630,
+    "name": "EVGA Case Model 10",
+    "category": "Case",
+    "image": "https://via.placeholder.com/100?text=EVGA+Case+10",
+    "price": 195
+  }
+]

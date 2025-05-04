@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom PC Builder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        select, input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #5cb85c;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Custom PC Builder</h1>
+        <form id="pc-builder-form">
+            <!-- Processor -->
+            <div class="form-group">
+                <label for="processor">Processor</label>
+                <select id="processor" required>
+                    <option value="">Select a Processor</option>
+                    <option value="Intel Core i9-13900K">Intel Core i9-13900K</option>
+<option value="Intel Core i9-13900KF">Intel Core i9-13900KF</option>
+<option value="Intel Core i9-13900F">Intel Core i9-13900F</option>
+<option value="Intel Core i7-13700K">Intel Core i7-13700K</option>
+<option value="Intel Core i7-13700KF">Intel Core i7-13700KF</option>
+<option value="Intel Core i7-13700F">Intel Core i7-13700F</option>
+<option value="Intel Core i5-13600K">Intel Core i5-13600K</option>
+<option value="Intel Core i5-13600KF">Intel Core i5-13600KF</option>
+<option value="Intel Core i9-12900K">Intel Core i9-12900K</option>
+<option value="Intel Core i9-12900KF">Intel Core i9-12900KF</option>
+<option value="Intel Core i7-12700K">Intel Core i7-12700K</option>
+<option value="Intel Core i7-12700KF">Intel Core i7-12700KF</option>
+<option value="Intel Core i5-12600K">Intel Core i5-12600K</option>
+<option value="Intel Core i5-12600KF">Intel Core i5-12600KF</option>
+<option value="Intel Core i3-12100">Intel Core i3-12100</option>
+<option value="Intel Core i7-11700K">Intel Core i7-11700K</option>
+<option value="Intel Core i5-11600K">Intel Core i5-11600K</option>
+<option value="Intel Core i3-10100">Intel Core i3-10100</option>
+<option value="Intel Core i9-11980HK">Intel Core i9-11980HK</option>
+<option value="Intel Core i7-11800H">Intel Core i7-11800H</option>
+<option value="Intel Core i5-11400H">Intel Core i5-11400H</option>
+<option value="Intel Core i3-1115G4">Intel Core i3-1115G4</option>
+<option value="Intel Core i9-10900K">Intel Core i9-10900K</option>
+<option value="Intel Core i7-10700K">Intel Core i7-10700K</option>
+<option value="Intel Core i5-10600K">Intel Core i5-10600K</option>
+<option value="Intel Core i3-9100">Intel Core i3-9100</option>
+<option value="Intel Core i9-9900K">Intel Core i9-9900K</option>
+<option value="Intel Core i7-9700K">Intel Core i7-9700K</option>
+<option value="Intel Core i5-9600K">Intel Core i5-9600K</option>
+<option value="Intel Core i3-8100">Intel Core i3-8100</option>
+<option value="Intel Core i7-8700K">Intel Core i7-8700K</option>
+<option value="Intel Core i5-8600K">Intel Core i5-8600K</option>
+<option value="Intel Core i3-7100">Intel Core i3-7100</option>
+<option value="Intel Core i7-7700K">Intel Core i7-7700K</option>
+<option value="Intel Core i5-7600K">Intel Core i5-7600K</option>
+<option value="Intel Core i3-6100">Intel Core i3-6100</option>
+<option value="Intel Core i7-6700K">Intel Core i7-6700K</option>
+<option value="Intel Core i5-6600K">Intel Core i5-6600K</option>
+<option value="Intel Core i7-5775C">Intel Core i7-5775C</option>
+<option value="Intel Core i5-5675C">Intel Core i5-5675C</option>
+<option value="Intel Core i7-4790K">Intel Core i7-4790K</option>
+<option value="Intel Core i5-4690K">Intel Core i5-4690K</option>
+<option value="Intel Core i7-4770K">Intel Core i7-4770K</option>
+<option value="Intel Core i5-4670K">Intel Core i5-4670K</option>
+<option value="Intel Core i7-3770K">Intel Core i7-3770K</option>
+<option value="Intel Core i5-3570K">Intel Core i5-3570K</option>
+<option value="Intel Core i7-2700K">Intel Core i7-2700K</option>
+<option value="Intel Core i5-2500K">Intel Core i5-2500K</option>
+<option value="Intel Core i7-2600K">Intel Core i7-2600K</option>
+<option value="Intel Core i5-2400">Intel Core i5-2400</option>
+<option value="AMD Ryzen 9 7950X3D">AMD Ryzen 9 7950X3D</option>
+<option value="AMD Ryzen 9 7950X">AMD Ryzen 9 7950X</option>
+<option value="AMD Ryzen 9 7900X3D">AMD Ryzen 9 7900X3D</option>
+<option value="AMD Ryzen 9 7900X">AMD Ryzen 9 7900X</option>
+<option value="AMD Ryzen 7 7800X3D">AMD Ryzen 7 7800X3D</option>
+<option value="AMD Ryzen 7 7700X">AMD Ryzen 7 7700X</option>
+<option value="AMD Ryzen 5 7600X">AMD Ryzen 5 7600X</option>
+<option value="AMD Ryzen 5 7600">AMD Ryzen 5 7600</option>
+<option value="AMD Ryzen 9 5950X">AMD Ryzen 9 5950X</option>
+<option value="AMD Ryzen 9 5900X">AMD Ryzen 9 5900X</option>
+<option value="AMD Ryzen 7 5800X3D">AMD Ryzen 7 5800X3D</option>
+<option value="AMD Ryzen 7 5800X">AMD Ryzen 7 5800X</option>
+<option value="AMD Ryzen 5 5600X">AMD Ryzen 5 5600X</option>
+<option value="AMD Ryzen 5 5600G">AMD Ryzen 5 5600G</option>
+<option value="AMD Ryzen 3 5300G">AMD Ryzen 3 5300G</option>
+<option value="AMD Ryzen 7 4700G">AMD Ryzen 7 4700G</option>
+<option value="AMD Ryzen 5 4600G">AMD Ryzen 5 4600G</option>
+<option value="AMD Ryzen 3 4300G">AMD Ryzen 3 4300G</option>
+<option value="AMD Ryzen 9 5900HX">AMD Ryzen 9 5900HX</option>
+<option value="AMD Ryzen 7 5800H">AMD Ryzen 7 5800H</option>
+<option value="AMD Ryzen 5 5600H">AMD Ryzen 5 5600H</option>
+<option value="AMD Ryzen 3 5400U">AMD Ryzen 3 5400U</option>
+<option value="AMD Ryzen 9 3900XT">AMD Ryzen 9 3900XT</option>
+<option value="AMD Ryzen 7 3800XT">AMD Ryzen 7 3800XT</option>
+<option value="AMD Ryzen 5 3600XT">AMD Ryzen 5 3600XT</option>
+<option value="AMD Ryzen 3 3300X">AMD Ryzen 3 3300X</option>
+<option value="AMD Ryzen 9 3950X">AMD Ryzen 9 3950X</option>
+<option value="AMD Ryzen 7 3700X">AMD Ryzen 7 3700X</option>
+<option value="AMD Ryzen 5 3600">AMD Ryzen 5 3600</option>
+<option value="AMD Ryzen 3 3100">AMD Ryzen 3 3100</option>
+<option value="AMD Ryzen Threadripper 3990X">AMD Ryzen Threadripper 3990X</option>
+<option value="AMD Ryzen Threadripper 3970X">AMD Ryzen Threadripper 3970X</option>
+<option value="AMD Ryzen Threadripper 3960X">AMD Ryzen Threadripper 3960X</option>
+<option value="AMD Ryzen Threadripper 2990WX">AMD Ryzen Threadripper 2990WX</option>
+<option value="AMD Ryzen Threadripper 2970WX">AMD Ryzen Threadripper 2970WX</option>
+<option value="AMD Ryzen Threadripper 2950X">AMD Ryzen Threadripper 2950X</option>
+<option value="AMD Ryzen 7 2700X">AMD Ryzen 7 2700X</option>
+<option value="AMD Ryzen 5 2600X">AMD Ryzen 5 2600X</option>
+<option value="AMD Ryzen 3 2200G">AMD Ryzen 3 2200G</option>
+<option value="AMD Ryzen 7 1800X">AMD Ryzen 7 1800X</option>
+<option value="AMD Ryzen 5 1600X">AMD Ryzen 5 1600X</option>
+<option value="AMD Ryzen 3 1200">AMD Ryzen 3 1200</option>
+<option value="AMD Ryzen 7 1700">AMD Ryzen 7 1700</option>
+<option value="AMD Ryzen 5 1400">AMD Ryzen 5 1400</option>
+<option value="AMD Ryzen 7 PRO 4750G">AMD Ryzen 7 PRO 4750G</option>
+<option value="AMD Ryzen 5 PRO 4650G">AMD Ryzen 5 PRO 4650G</option>
+<option value="AMD Ryzen 3 PRO 4350G">AMD Ryzen 3 PRO 4350G</option>
+<option value="AMD Ryzen 7 PRO 3700">AMD Ryzen 7 PRO 3700</option>
+<option value="AMD Ryzen 5 PRO 3600">AMD Ryzen 5 PRO 3600</option>
+<option value="AMD Ryzen 3 PRO 3200G">AMD Ryzen 3 PRO 3200G</option>
+                </select>
+            </div>
+
+            <!-- Motherboard -->
+            <div class="form-group">
+                <label for="motherboard">Motherboard</label>
+                <select id="motherboard" required>
+                    <option value="">Select a Motherboard</option>
+                    <option value="ASUS ROG Maximus Z790 Extreme">ASUS ROG Maximus Z790 Extreme</option>
+<option value="MSI MEG Z790 Godlike">MSI MEG Z790 Godlike</option>
+<option value="Gigabyte Z790 AORUS Xtreme">Gigabyte Z790 AORUS Xtreme</option>
+<option value="ASRock Z790 Taichi Carrara">ASRock Z790 Taichi Carrara</option>
+<option value="ASUS ROG Strix Z790-E Gaming WiFi">ASUS ROG Strix Z790-E Gaming WiFi</option>
+<option value="MSI MPG Z790 Carbon WiFi">MSI MPG Z790 Carbon WiFi</option>
+<option value="Gigabyte Z790 AORUS Master">Gigabyte Z790 AORUS Master</option>
+<option value="ASRock Z790 Steel Legend WiFi">ASRock Z790 Steel Legend WiFi</option>
+<option value="ASUS PRIME Z790-A WiFi">ASUS PRIME Z790-A WiFi</option>
+<option value="MSI PRO Z790-A WiFi">MSI PRO Z790-A WiFi</option>
+<option value="Gigabyte Z790 Gaming X AX">Gigabyte Z790 Gaming X AX</option>
+<option value="ASRock Z790M PG Lightning WiFi">ASRock Z790M PG Lightning WiFi</option>
+<option value="ASUS ROG Maximus Z690 Apex">ASUS ROG Maximus Z690 Apex</option>
+<option value="MSI MEG Z690 Unify-X">MSI MEG Z690 Unify-X</option>
+<option value="Gigabyte Z690 AORUS Extreme WaterForce">Gigabyte Z690 AORUS Extreme WaterForce</option>
+<option value="ASRock Z690 Aqua OC">ASRock Z690 Aqua OC</option>
+<option value="ASUS ROG Strix Z690-F Gaming WiFi">ASUS ROG Strix Z690-F Gaming WiFi</option>
+<option value="MSI MPG Z690 Force WiFi">MSI MPG Z690 Force WiFi</option>
+<option value="Gigabyte Z690 AORUS Ultra">Gigabyte Z690 AORUS Ultra</option>
+<option value="ASRock Z690 Phantom Gaming 4/D5">ASRock Z690 Phantom Gaming 4/D5</option>
+<option value="ASUS PRIME Z690-P D4">ASUS PRIME Z690-P D4</option>
+<option value="MSI PRO Z690-P DDR4">MSI PRO Z690-P DDR4</option>
+<option value="Gigabyte Z690 UD DDR4">Gigabyte Z690 UD DDR4</option>
+<option value="ASRock Z690M-ITX WiFi">ASRock Z690M-ITX WiFi</option>
+<option value="ASUS ROG Crosshair X670E Extreme">ASUS ROG Crosshair X670E Extreme</option>
+<option value="MSI MEG X670E Godlike">MSI MEG X670E Godlike</option>
+<option value="Gigabyte X670E AORUS Xtreme">Gigabyte X670E AORUS Xtreme</option>
+<option value="ASRock X670E Taichi Carrara">ASRock X670E Taichi Carrara</option>
+<option value="ASUS ROG Strix X670E-E Gaming WiFi">ASUS ROG Strix X670E-E Gaming WiFi</option>
+<option value="MSI MPG X670E Carbon WiFi">MSI MPG X670E Carbon WiFi</option>
+<option value="Gigabyte X670E AORUS Master">Gigabyte X670E AORUS Master</option>
+<option value="ASRock X670E Steel Legend WiFi">ASRock X670E Steel Legend WiFi</option>
+<option value="ASUS PRIME X670-P WiFi">ASUS PRIME X670-P WiFi</option>
+<option value="MSI PRO X670-P WiFi">MSI PRO X670-P WiFi</option>
+<option value="Gigabyte X670 Gaming X AX">Gigabyte X670 Gaming X AX</option>
+<option value="ASRock X670E PG Lightning">ASRock X670E PG Lightning</option>
+<option value="ASUS ROG Crosshair X670E Hero">ASUS ROG Crosshair X670E Hero</option>
+<option value="MSI MEG X670E Ace">MSI MEG X670E Ace</option>
+<option value="Gigabyte X670 AORUS Elite AX">Gigabyte X670 AORUS Elite AX</option>
+<option value="ASRock X670 Phantom Gaming-ITX WiFi">ASRock X670 Phantom Gaming-ITX WiFi</option>
+<option value="ASUS TUF Gaming B760-Plus WiFi D4">ASUS TUF Gaming B760-Plus WiFi D4</option>
+<option value="MSI MAG B760 Tomahawk WIFI">MSI MAG B760 Tomahawk WIFI</option>
+<option value="Gigabyte B760 AORUS Elite AX DDR4">Gigabyte B760 AORUS Elite AX DDR4</option>
+<option value="ASRock B760 Steel Legend WiFi D4">ASRock B760 Steel Legend WiFi D4</option>
+<option value="ASUS PRIME B760-Plus D4">ASUS PRIME B760-Plus D4</option>
+<option value="MSI PRO B760M-A WIFI DDR4">MSI PRO B760M-A WIFI DDR4</option>
+<option value="Gigabyte B760M AORUS Elite AX DDR4">Gigabyte B760M AORUS Elite AX DDR4</option>
+<option value="ASRock B760M Pro RS D4">ASRock B760M Pro RS D4</option>
+<option value="ASUS ROG Strix B650E-F Gaming WiFi">ASUS ROG Strix B650E-F Gaming WiFi</option>
+<option value="MSI MAG B650 Tomahawk WIFI">MSI MAG B650 Tomahawk WIFI</option>
+<option value="Gigabyte B650 AORUS Elite AX">Gigabyte B650 AORUS Elite AX</option>
+<option value="ASRock B650E Steel Legend WiFi">ASRock B650E Steel Legend WiFi</option>
+<option value="ASUS PRIME B650-Plus">ASUS PRIME B650-Plus</option>
+<option value="MSI PRO B650-P WIFI">MSI PRO B650-P WIFI</option>
+<option value="Gigabyte B650 Gaming X AX">Gigabyte B650 Gaming X AX</option>
+<option value="ASRock B650M PG Riptide">ASRock B650M PG Riptide</option>
+<option value="ASUS TUF Gaming B550-Plus">ASUS TUF Gaming B550-Plus</option>
+<option value="MSI MAG B550 Tomahawk">MSI MAG B550 Tomahawk</option>
+<option value="Gigabyte B550 AORUS Master">Gigabyte B550 AORUS Master</option>
+<option value="ASRock B550 Taichi">ASRock B550 Taichi</option>
+<option value="ASUS ROG Strix B550-F Gaming WiFi">ASUS ROG Strix B550-F Gaming WiFi</option>
+<option value="MSI MPG B550 Gaming Edge WIFI">MSI MPG B550 Gaming Edge WIFI</option>
+<option value="Gigabyte B550 Vision D-P">Gigabyte B550 Vision D-P</option>
+<option value="ASRock B550M Steel Legend">ASRock B550M Steel Legend</option>
+<option value="ASUS PRIME B550M-A WiFi">ASUS PRIME B550M-A WiFi</option>
+<option value="MSI B550M PRO-VDH WIFI">MSI B550M PRO-VDH WIFI</option>
+<option value="Gigabyte B550M AORUS PRO-P">Gigabyte B550M AORUS PRO-P</option>
+<option value="ASRock B550M-ITX/ac">ASRock B550M-ITX/ac</option>
+<option value="ASUS PRIME H770-Plus D4">ASUS PRIME H770-Plus D4</option>
+<option value="MSI PRO H770-P DDR4">MSI PRO H770-P DDR4</option>
+<option value="Gigabyte H770 Eagle AX DDR4">Gigabyte H770 Eagle AX DDR4</option>
+<option value="ASRock H770 Steel Legend WiFi D4">ASRock H770 Steel Legend WiFi D4</option>
+<option value="ASUS TUF Gaming H670-PRO WiFi D4">ASUS TUF Gaming H670-PRO WiFi D4</option>
+<option value="MSI MAG H670 Tomahawk WIFI DDR4">MSI MAG H670 Tomahawk WIFI DDR4</option>
+<option value="Gigabyte H670 AORUS Pro DDR4">Gigabyte H670 AORUS Pro DDR4</option>
+<option value="ASRock H670 Steel Legend">ASRock H670 Steel Legend</option>
+<option value="ASUS PRIME H610M-A D4">ASUS PRIME H610M-A D4</option>
+<option value="MSI PRO H610M-B DDR4">MSI PRO H610M-B DDR4</option>
+<option value="Gigabyte H610M S2H DDR4">Gigabyte H610M S2H DDR4</option>
+<option value="ASRock H610M-HDV/M.2">ASRock H610M-HDV/M.2</option>
+<option value="ASUS PRIME B450-Plus">ASUS PRIME B450-Plus</option>
+<option value="MSI B450 Tomahawk MAX II">MSI B450 Tomahawk MAX II</option>
+<option value="Gigabyte B450 AORUS PRO WIFI">Gigabyte B450 AORUS PRO WIFI</option>
+<option value="ASRock B450 Steel Legend">ASRock B450 Steel Legend</option>
+<option value="ASUS TUF Gaming B450M-Plus II">ASUS TUF Gaming B450M-Plus II</option>
+<option value="MSI B450M Mortar MAX">MSI B450M Mortar MAX</option>
+<option value="Gigabyte B450M DS3H WIFI">Gigabyte B450M DS3H WIFI</option>
+<option value="ASRock B450M Pro4">ASRock B450M Pro4</option>
+<option value="ASUS PRIME A520M-K">ASUS PRIME A520M-K</option>
+<option value="MSI A520M-A PRO">MSI A520M-A PRO</option>
+<option value="Gigabyte A520M DS3H">Gigabyte A520M DS3H</option>
+<option value="ASRock A520M-HDV">ASRock A520M-HDV</option>
+<option value="ASUS ROG Strix TRX40-E Gaming">ASUS ROG Strix TRX40-E Gaming</option>
+<option value="MSI MEG TRX40 ACE">MSI MEG TRX40 ACE</option>
+<option value="Gigabyte TRX40 AORUS Xtreme">Gigabyte TRX40 AORUS Xtreme</option>
+<option value="ASRock TRX40 Taichi">ASRock TRX40 Taichi</option>
+<option value="ASUS PRIME X299-A II">ASUS PRIME X299-A II</option>
+<option value="MSI MEG X299 ACE">MSI MEG X299 ACE</option>
+<option value="Gigabyte X299 AORUS Master">Gigabyte X299 AORUS Master</option>
+<option value="ASRock X299 Taichi CLX">ASRock X299 Taichi CLX</option>
+<option value="ASUS ROG Zenith II Extreme Alpha">ASUS ROG Zenith II Extreme Alpha</option>
+<option value="MSI MEG Creation X570">MSI MEG Creation X570</option>
+<option value="Gigabyte X570 AORUS Xtreme">Gigabyte X570 AORUS Xtreme</option>
+<option value="ASRock X570 Taichi">ASRock X570 Taichi</option>
+<option value="ASUS ROG Crosshair VIII Hero (Wi-Fi)">ASUS ROG Crosshair VIII Hero (Wi-Fi)</option>
+<option value="MSI MPG X570 Gaming Pro Carbon WiFi">MSI MPG X570 Gaming Pro Carbon WiFi</option>
+<option value="Gigabyte X570 AORUS Master">Gigabyte X570 AORUS Master</option>
+<option value="ASRock X570 Steel Legend WiFi ax">ASRock X570 Steel Legend WiFi ax</option>
+<option value="ASUS PRIME X570-P">ASUS PRIME X570-P</option>
+<option value="MSI PRO X570-A">MSI PRO X570-A</option>
+<option value="Gigabyte X570 Gaming X">Gigabyte X570 Gaming X</option>
+<option value="ASRock X570 Phantom Gaming 4">ASRock X570 Phantom Gaming 4</option>
+<option value="ASUS TUF Gaming X570-Plus (Wi-Fi)">ASUS TUF Gaming X570-Plus (Wi-Fi)</option>
+<option value="MSI MAG X570 Tomahawk WIFI">MSI MAG X570 Tomahawk WIFI</option>
+<option value="Gigabyte X570 AORUS Elite WiFi">Gigabyte X570 AORUS Elite WiFi</option>
+<option value="ASRock X570M Pro4">ASRock X570M Pro4</option>
+<option value="ASUS PRIME B550-XE Gaming WiFi">ASUS PRIME B550-XE Gaming WiFi</option>
+<option value="MSI MPG B550 Gaming Carbon WIFI">MSI MPG B550 Gaming Carbon WIFI</option>
+<option value="Gigabyte B550 AORUS Pro AC">Gigabyte B550 AORUS Pro AC</option>
+<option value="ASRock B550 PG Velocita">ASRock B550 PG Velocita</option>
+<option value="ASUS ROG Strix B550-A Gaming">ASUS ROG Strix B550-A Gaming</option>
+<option value="MSI MAG B550M Mortar WiFi">MSI MAG B550M Mortar WiFi</option>
+<option value="Gigabyte B550M AORUS Elite">Gigabyte B550M AORUS Elite</option>
+<option value="ASRock B550M Pro4/ac">ASRock B550M Pro4/ac</option>
+<option value="ASUS PRIME B450M-A">ASUS PRIME B450M-A</option>
+<option value="MSI B450 Gaming PRO CARBON AC">MSI B450 Gaming PRO CARBON AC</option>
+<option value="Gigabyte B450 AORUS Elite">Gigabyte B450 AORUS Elite</option>
+<option value="ASRock B450M Steel Legend RGB">ASRock B450M Steel Legend RGB</option>
+<option value="ASUS TUF Gaming B450-Pro Gaming">ASUS TUF Gaming B450-Pro Gaming</option>
+<option value="MSI B450M Bazooka MAX WIFI">MSI B450M Bazooka MAX WIFI</option>
+<option value="Gigabyte B450M Gaming">Gigabyte B450M Gaming</option>
+<option value="ASRock B450M-HDV R4.0">ASRock B450M-HDV R4.0</option>
+<option value="ASUS PRIME A320M-K">ASUS PRIME A320M-K</option>
+<option value="MSI A320M-A PRO MAX">MSI A320M-A PRO MAX</option>
+<option value="Gigabyte A320M-S2H">Gigabyte A320M-S2H</option>
+                </select>
+            </div>
+
+            <!-- GPU -->
+            <div class="form-group">
+                <label for="gpu">Graphics Card</label>
+                <select id="gpu" required>
+                    <option value="">Select a Graphics Card</option>
+                    <option value="NVIDIA GeForce RTX 5090">NVIDIA GeForce RTX 5090</option>
+<option value="NVIDIA GeForce RTX 5080">NVIDIA GeForce RTX 5080</option>
+<option value="NVIDIA GeForce RTX 4090">NVIDIA GeForce RTX 4090</option>
+<option value="NVIDIA GeForce RTX 4080 SUPER">NVIDIA GeForce RTX 4080 SUPER</option>
+<option value="NVIDIA GeForce RTX 4080">NVIDIA GeForce RTX 4080</option>
+<option value="NVIDIA GeForce RTX 4070 Ti SUPER">NVIDIA GeForce RTX 4070 Ti SUPER</option>
+<option value="NVIDIA GeForce RTX 4070 Ti">NVIDIA GeForce RTX 4070 Ti</option>
+<option value="NVIDIA GeForce RTX 4070 SUPER">NVIDIA GeForce RTX 4070 SUPER</option>
+<option value="NVIDIA GeForce RTX 4070">NVIDIA GeForce RTX 4070</option>
+<option value="NVIDIA GeForce RTX 4060 Ti 16GB">NVIDIA GeForce RTX 4060 Ti 16GB</option>
+<option value="NVIDIA GeForce RTX 4060 Ti 8GB">NVIDIA GeForce RTX 4060 Ti 8GB</option>
+<option value="NVIDIA GeForce RTX 4060">NVIDIA GeForce RTX 4060</option>
+<option value="NVIDIA GeForce RTX 3090 Ti">NVIDIA GeForce RTX 3090 Ti</option>
+<option value="NVIDIA GeForce RTX 3090">NVIDIA GeForce RTX 3090</option>
+<option value="NVIDIA GeForce RTX 3080 Ti">NVIDIA GeForce RTX 3080 Ti</option>
+<option value="NVIDIA GeForce RTX 3080 12GB">NVIDIA GeForce RTX 3080 12GB</option>
+<option value="NVIDIA GeForce RTX 3080">NVIDIA GeForce RTX 3080</option>
+<option value="NVIDIA GeForce RTX 3070 Ti">NVIDIA GeForce RTX 3070 Ti</option>
+<option value="NVIDIA GeForce RTX 3070">NVIDIA GeForce RTX 3070</option>
+<option value="NVIDIA GeForce RTX 3060 Ti">NVIDIA GeForce RTX 3060 Ti</option>
+<option value="NVIDIA GeForce RTX 3060 12GB">NVIDIA GeForce RTX 3060 12GB</option>
+<option value="NVIDIA GeForce RTX 3050 8GB">NVIDIA GeForce RTX 3050 8GB</option>
+<option value="NVIDIA GeForce RTX 2080 Ti">NVIDIA GeForce RTX 2080 Ti</option>
+<option value="NVIDIA GeForce RTX 2080 SUPER">NVIDIA GeForce RTX 2080 SUPER</option>
+<option value="NVIDIA GeForce RTX 2080">NVIDIA GeForce RTX 2080</option>
+<option value="NVIDIA GeForce RTX 2070 SUPER">NVIDIA GeForce RTX 2070 SUPER</option>
+<option value="NVIDIA GeForce RTX 2070">NVIDIA GeForce RTX 2070</option>
+<option value="NVIDIA GeForce RTX 2060 SUPER">NVIDIA GeForce RTX 2060 SUPER</option>
+<option value="NVIDIA GeForce RTX 2060 12GB">NVIDIA GeForce RTX 2060 12GB</option>
+<option value="NVIDIA GeForce RTX 2060">NVIDIA GeForce RTX 2060</option>
+<option value="NVIDIA GeForce GTX 1660 Ti">NVIDIA GeForce GTX 1660 Ti</option>
+<option value="NVIDIA GeForce GTX 1660 SUPER">NVIDIA GeForce GTX 1660 SUPER</option>
+<option value="NVIDIA GeForce GTX 1660">NVIDIA GeForce GTX 1660</option>
+<option value="NVIDIA GeForce GTX 1650 SUPER">NVIDIA GeForce GTX 1650 SUPER</option>
+<option value="NVIDIA GeForce GTX 1650">NVIDIA GeForce GTX 1650</option>
+
+<option value="AMD Radeon RX 7900 XTX">AMD Radeon RX 7900 XTX</option>
+<option value="AMD Radeon RX 7900 XT">AMD Radeon RX 7900 XT</option>
+<option value="AMD Radeon RX 7800 XT">AMD Radeon RX 7800 XT</option>
+<option value="AMD Radeon RX 7700 XT">AMD Radeon RX 7700 XT</option>
+<option value="AMD Radeon RX 7600 XT">AMD Radeon RX 7600 XT</option>
+<option value="AMD Radeon RX 7600">AMD Radeon RX 7600</option>
+<option value="AMD Radeon RX 6950 XT">AMD Radeon RX 6950 XT</option>
+<option value="AMD Radeon RX 6900 XT">AMD Radeon RX 6900 XT</option>
+<option value="AMD Radeon RX 6800 XT">AMD Radeon RX 6800 XT</option>
+<option value="AMD Radeon RX 6800">AMD Radeon RX 6800</option>
+<option value="AMD Radeon RX 6750 XT">AMD Radeon RX 6750 XT</option>
+<option value="AMD Radeon RX 6700 XT">AMD Radeon RX 6700 XT</option>
+<option value="AMD Radeon RX 6700">AMD Radeon RX 6700</option>
+<option value="AMD Radeon RX 6650 XT">AMD Radeon RX 6650 XT</option>
+<option value="AMD Radeon RX 6600 XT">AMD Radeon RX 6600 XT</option>
+<option value="AMD Radeon RX 6600">AMD Radeon RX 6600</option>
+<option value="AMD Radeon RX 6500 XT">AMD Radeon RX 6500 XT</option>
+<option value="AMD Radeon RX 6400">AMD Radeon RX 6400</option>
+<option value="AMD Radeon RX 5700 XT">AMD Radeon RX 5700 XT</option>
+<option value="AMD Radeon RX 5700">AMD Radeon RX 5700</option>
+<option value="AMD Radeon RX 5600 XT">AMD Radeon RX 5600 XT</option>
+<option value="AMD Radeon RX 5500 XT">AMD Radeon RX 5500 XT</option>
+                </select>
+            </div>
+
+            <!-- RAM -->
+            <div class="form-group">
+                <label for="ram">RAM</label>
+                <select id="ram" required>
+                    <option value="">Select RAM</option>
+                    <option value="Corsair Dominator Platinum RGB 16GB (2x8GB) DDR4 3200MHz">Corsair Dominator Platinum RGB 16GB (2x8GB) DDR4 3200MHz</option>
+<option value="Corsair Dominator Platinum RGB 16GB (2x8GB) DDR4 3600MHz">Corsair Dominator Platinum RGB 16GB (2x8GB) DDR4 3600MHz</option>
+<option value="Corsair Dominator Platinum RGB 32GB (2x16GB) DDR4 3200MHz">Corsair Dominator Platinum RGB 32GB (2x16GB) DDR4 3200MHz</option>
+<option value="Corsair Dominator Platinum RGB 32GB (2x16GB) DDR4 3600MHz">Corsair Dominator Platinum RGB 32GB (2x16GB) DDR4 3600MHz</option>
+<option value="Corsair Dominator Platinum RGB 64GB (2x32GB) DDR4 3200MHz">Corsair Dominator Platinum RGB 64GB (2x32GB) DDR4 3200MHz</option>
+<option value="Corsair Dominator Platinum RGB 64GB (2x32GB) DDR4 3600MHz">Corsair Dominator Platinum RGB 64GB (2x32GB) DDR4 3600MHz</option>
+<option value="Corsair Vengeance DDR5 32GB (2x16GB) 4800MHz">Corsair Vengeance DDR5 32GB (2x16GB) 4800MHz</option>
+<option value="Corsair Vengeance DDR5 32GB (2x16GB) 5200MHz">Corsair Vengeance DDR5 32GB (2x16GB) 5200MHz</option>
+<option value="Corsair Vengeance DDR5 32GB (2x16GB) 5600MHz">Corsair Vengeance DDR5 32GB (2x16GB) 5600MHz</option>
+<option value="Corsair Vengeance DDR5 32GB (2x16GB) 6000MHz">Corsair Vengeance DDR5 32GB (2x16GB) 6000MHz</option>
+<option value="Corsair Vengeance DDR5 64GB (2x32GB) 4800MHz">Corsair Vengeance DDR5 64GB (2x32GB) 4800MHz</option>
+<option value="Corsair Vengeance DDR5 64GB (2x32GB) 5200MHz">Corsair Vengeance DDR5 64GB (2x32GB) 5200MHz</option>
+<option value="Corsair Vengeance DDR5 64GB (2x32GB) 5600MHz">Corsair Vengeance DDR5 64GB (2x32GB) 5600MHz</option>
+<option value="Corsair Vengeance DDR5 64GB (2x32GB) 6000MHz">Corsair Vengeance DDR5 64GB (2x32GB) 6000MHz</option>
+<option value="Corsair Vengeance LPX 16GB (2x8GB) DDR4 2400MHz">Corsair Vengeance LPX 16GB (2x8GB) DDR4 2400MHz</option>
+<option value="Corsair Vengeance LPX 16GB (2x8GB) DDR4 2666MHz">Corsair Vengeance LPX 16GB (2x8GB) DDR4 2666MHz</option>
+<option value="Corsair Vengeance LPX 16GB (2x8GB) DDR4 3000MHz">Corsair Vengeance LPX 16GB (2x8GB) DDR4 3000MHz</option>
+<option value="Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz">Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz</option>
+<option value="Corsair Vengeance LPX 16GB (2x8GB) DDR4 3600MHz">Corsair Vengeance LPX 16GB (2x8GB) DDR4 3600MHz</option>
+<option value="Corsair Vengeance LPX 32GB (2x16GB) DDR4 2400MHz">Corsair Vengeance LPX 32GB (2x16GB) DDR4 2400MHz</option>
+<option value="Corsair Vengeance LPX 32GB (2x16GB) DDR4 2666MHz">Corsair Vengeance LPX 32GB (2x16GB) DDR4 2666MHz</option>
+<option value="Corsair Vengeance LPX 32GB (2x16GB) DDR4 3000MHz">Corsair Vengeance LPX 32GB (2x16GB) DDR4 3000MHz</option>
+<option value="Corsair Vengeance LPX 32GB (2x16GB) DDR4 3200MHz">Corsair Vengeance LPX 32GB (2x16GB) DDR4 3200MHz</option>
+<option value="Corsair Vengeance LPX 32GB (2x16GB) DDR4 3600MHz">Corsair Vengeance LPX 32GB (2x16GB) DDR4 3600MHz</option>
+<option value="Corsair Vengeance LPX 64GB (2x32GB) DDR4 3200MHz">Corsair Vengeance LPX 64GB (2x32GB) DDR4 3200MHz</option>
+<option value="Corsair Vengeance LPX 64GB (2x32GB) DDR4 3600MHz">Corsair Vengeance LPX 64GB (2x32GB) DDR4 3600MHz</option>
+<option value="Corsair Vengeance RGB Pro 16GB (2x8GB) DDR4 3200MHz">Corsair Vengeance RGB Pro 16GB (2x8GB) DDR4 3200MHz</option>
+<option value="Corsair Vengeance RGB Pro 16GB (2x8GB) DDR4 3600MHz">Corsair Vengeance RGB Pro 16GB (2x8GB) DDR4 3600MHz</option>
+<option value="Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4 3200MHz">Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4 3200MHz</option>
+<option value="Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4 3600MHz">Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4 3600MHz</option>
+<option value="Corsair Vengeance RGB Pro 64GB (2x32GB) DDR4 3200MHz">Corsair Vengeance RGB Pro 64GB (2x32GB) DDR4 3200MHz</option>
+<option value="Corsair Vengeance RGB Pro 64GB (2x32GB) DDR4 3600MHz">Corsair Vengeance RGB Pro 64GB (2x32GB) DDR4 3600MHz</option>
+<option value="Crucial Ballistix 16GB (2x8GB) DDR4 2400MHz">Crucial Ballistix 16GB (2x8GB) DDR4 2400MHz</option>
+<option value="Crucial Ballistix 16GB (2x8GB) DDR4 2666MHz">Crucial Ballistix 16GB (2x8GB) DDR4 2666MHz</option>
+<option value="Crucial Ballistix 16GB (2x8GB) DDR4 3000MHz">Crucial Ballistix 16GB (2x8GB) DDR4 3000MHz</option>
+<option value="Crucial Ballistix 16GB (2x8GB) DDR4 3200MHz">Crucial Ballistix 16GB (2x8GB) DDR4 3200MHz</option>
+<option value="Crucial Ballistix 16GB (2x8GB) DDR4 3600MHz">Crucial Ballistix 16GB (2x8GB) DDR4 3600MHz</option>
+<option value="Crucial Ballistix 32GB (2x16GB) DDR4 2400MHz">Crucial Ballistix 32GB (2x16GB) DDR4 2400MHz</option>
+<option value="Crucial Ballistix 32GB (2x16GB) DDR4 2666MHz">Crucial Ballistix 32GB (2x16GB) DDR4 2666MHz</option>
+<option value="Crucial Ballistix 32GB (2x16GB) DDR4 3000MHz">Crucial Ballistix 32GB (2x16GB) DDR4 3000MHz</option>
+<option value="Crucial Ballistix 32GB (2x16GB) DDR4 3200MHz">Crucial Ballistix 32GB (2x16GB) DDR4 3200MHz</option>
+<option value="Crucial Ballistix 32GB (2x16GB) DDR4 3600MHz">Crucial Ballistix 32GB (2x16GB) DDR4 3600MHz</option>
+<option value="Crucial Ballistix 64GB (2x32GB) DDR4 3200MHz">Crucial Ballistix 64GB (2x32GB) DDR4 3200MHz</option>
+<option value="Crucial Ballistix 64GB (2x32GB) DDR4 3600MHz">Crucial Ballistix 64GB (2x32GB) DDR4 3600MHz</option>
+<option value="Crucial Ballistix RGB 16GB (2x8GB) DDR4 3200MHz">Crucial Ballistix RGB 16GB (2x8GB) DDR4 3200MHz</option>
+<option value="Crucial Ballistix RGB 16GB (2x8GB) DDR4 3600MHz">Crucial Ballistix RGB 16GB (2x8GB) DDR4 3600MHz</option>
+<option value="Crucial Ballistix RGB 32GB (2x16GB) DDR4 3200MHz">Crucial Ballistix RGB 32GB (2x16GB) DDR4 3200MHz</option>
+<option value="Crucial Ballistix RGB 32GB (2x16GB) DDR4 3600MHz">Crucial Ballistix RGB 32GB (2x16GB) DDR4 3600MHz</option>
+<option value="Crucial Ballistix RGB 64GB (2x32GB) DDR4 3200MHz">Crucial Ballistix RGB 64GB (2x32GB) DDR4 3200MHz</option>
+<option value="Crucial Ballistix RGB 64GB (2x32GB) DDR4 3600MHz">Crucial Ballistix RGB 64GB (2x32GB) DDR4 3600MHz</option>
+<option value="Crucial DDR5 32GB (2x16GB) 4800MHz">Crucial DDR5 32GB (2x16GB) 4800MHz</option>
+<option value="Crucial DDR5 32GB (2x16GB) 5200MHz">Crucial DDR5 32GB (2x16GB) 5200MHz</option>
+<option value="Crucial DDR5 32GB (2x16GB) 5600MHz">Crucial DDR5 32GB (2x16GB) 5600MHz</option>
+<option value="Crucial DDR5 32GB (2x16GB) 6000MHz">Crucial DDR5 32GB (2x16GB) 6000MHz</option>
+<option value="Crucial DDR5 64GB (2x32GB) 4800MHz">Crucial DDR5 64GB (2x32GB) 4800MHz</option>
+<option value="Crucial DDR5 64GB (2x32GB) 5200MHz">Crucial DDR5 64GB (2x32GB) 5200MHz</option>
+<option value="Crucial DDR5 64GB (2x32GB) 5600MHz">Crucial DDR5 64GB (2x32GB) 5600MHz</option>
+<option value="Crucial DDR5 64GB (2x32GB) 6000MHz">Crucial DDR5 64GB (2x32GB) 6000MHz</option>
+<option value="G.Skill Ripjaws V 16GB (2x8GB) DDR4 2400MHz">G.Skill Ripjaws V 16GB (2x8GB) DDR4 2400MHz</option>
+<option value="G.Skill Ripjaws V 16GB (2x8GB) DDR4 2666MHz">G.Skill Ripjaws V 16GB (2x8GB) DDR4 2666MHz</option>
+<option value="G.Skill Ripjaws V 16GB (2x8GB) DDR4 3000MHz">G.Skill Ripjaws V 16GB (2x8GB) DDR4 3000MHz</option>
+<option value="G.Skill Ripjaws V 16GB (2x8GB) DDR4 3200MHz">G.Skill Ripjaws V 16GB (2x8GB) DDR4 3200MHz</option>
+<option value="G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600MHz">G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600MHz</option>
+<option value="G.Skill Ripjaws V 32GB (2x16GB) DDR4 2400MHz">G.Skill Ripjaws V 32GB (2x16GB) DDR4 2400MHz</option>
+<option value="G.Skill Ripjaws V 32GB (2x16GB) DDR4 2666MHz">G.Skill Ripjaws V 32GB (2x16GB) DDR4 2666MHz</option>
+<option value="G.Skill Ripjaws V 32GB (2x16GB) DDR4 3000MHz">G.Skill Ripjaws V 32GB (2x16GB) DDR4 3000MHz</option>
+<option value="G.Skill Ripjaws V 32GB (2x16GB) DDR4 3200MHz">G.Skill Ripjaws V 32GB (2x16GB) DDR4 3200MHz</option>
+<option value="G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600MHz">G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600MHz</option>
+<option value="G.Skill Ripjaws V 64GB (2x32GB) DDR4 3200MHz">G.Skill Ripjaws V 64GB (2x32GB) DDR4 3200MHz</option>
+<option value="G.Skill Ripjaws V 64GB (2x32GB) DDR4 3600MHz">G.Skill Ripjaws V 64GB (2x32GB) DDR4 3600MHz</option>
+<option value="G.Skill Trident Z Neo DDR5 32GB (2x16GB) 5600MHz">G.Skill Trident Z Neo DDR5 32GB (2x16GB)
+                </select>
+            </div>
+
+            <!-- Storage -->
+            <div class="form-group">
+                <label for="storage">Storage</label>
+                <select id="storage" required>
+                    <option value="">Select Storage</option>
+                    <option value="ADATA XPG SX6000 Lite 1TB NVMe SSD">ADATA XPG SX6000 Lite 1TB NVMe SSD</option>
+<option value="ADATA XPG SX6000 Lite 2TB NVMe SSD">ADATA XPG SX6000 Lite 2TB NVMe SSD</option>
+<option value="ADATA XPG SX6000 Lite 512GB NVMe SSD">ADATA XPG SX6000 Lite 512GB NVMe SSD</option>
+<option value="ADATA XPG SX8200 Pro 1TB NVMe SSD">ADATA XPG SX8200 Pro 1TB NVMe SSD</option>
+<option value="ADATA XPG SX8200 Pro 2TB NVMe SSD">ADATA XPG SX8200 Pro 2TB NVMe SSD</option>
+<option value="ADATA XPG SX8200 Pro 4TB NVMe SSD">ADATA XPG SX8200 Pro 4TB NVMe SSD</option>
+<option value="Crucial BX500 1TB 2.5-inch SATA SSD">Crucial BX500 1TB 2.5-inch SATA SSD</option>
+<option value="Crucial BX500 2TB 2.5-inch SATA SSD">Crucial BX500 2TB 2.5-inch SATA SSD</option>
+<option value="Crucial BX500 4TB 2.5-inch SATA SSD">Crucial BX500 4TB 2.5-inch SATA SSD</option>
+<option value="Crucial MX500 1TB 2.5-inch SATA SSD">Crucial MX500 1TB 2.5-inch SATA SSD</option>
+<option value="Crucial MX500 2TB 2.5-inch SATA SSD">Crucial MX500 2TB 2.5-inch SATA SSD</option>
+<option value="Crucial MX500 500GB 2.5-inch SATA SSD">Crucial MX500 500GB 2.5-inch SATA SSD</option>
+<option value="Crucial P2 1TB NVMe SSD">Crucial P2 1TB NVMe SSD</option>
+<option value="Crucial P2 2TB NVMe SSD">Crucial P2 2TB NVMe SSD</option>
+<option value="Crucial P2 500GB NVMe SSD">Crucial P2 500GB NVMe SSD</option>
+<option value="Crucial P3 Plus 1TB NVMe SSD">Crucial P3 Plus 1TB NVMe SSD</option>
+<option value="Crucial P3 Plus 2TB NVMe SSD">Crucial P3 Plus 2TB NVMe SSD</option>
+<option value="Crucial P3 Plus 500GB NVMe SSD">Crucial P3 Plus 500GB NVMe SSD</option>
+<option value="Crucial P5 1TB NVMe SSD">Crucial P5 1TB NVMe SSD</option>
+<option value="Crucial P5 2TB NVMe SSD">Crucial P5 2TB NVMe SSD</option>
+<option value="Crucial P5 500GB NVMe SSD">Crucial P5 500GB NVMe SSD</option>
+<option value="Crucial P5 Plus 1TB NVMe SSD">Crucial P5 Plus 1TB NVMe SSD</option>
+<option value="Crucial P5 Plus 2TB NVMe SSD">Crucial P5 Plus 2TB NVMe SSD</option>
+<option value="Crucial P5 Plus 4TB NVMe SSD">Crucial P5 Plus 4TB NVMe SSD</option>
+<option value="Kingston A400 1TB 2.5-inch SATA SSD">Kingston A400 1TB 2.5-inch SATA SSD</option>
+<option value="Kingston A400 2TB 2.5-inch SATA SSD">Kingston A400 2TB 2.5-inch SATA SSD</option>
+<option value="Kingston A400 4TB 2.5-inch SATA SSD">Kingston A400 4TB 2.5-inch SATA SSD</option>
+<option value="Kingston Fury Renegade 1TB NVMe SSD">Kingston Fury Renegade 1TB NVMe SSD</option>
+<option value="Kingston Fury Renegade 2TB NVMe SSD">Kingston Fury Renegade 2TB NVMe SSD</option>
+<option value="Kingston Fury Renegade 4TB NVMe SSD">Kingston Fury Renegade 4TB NVMe SSD</option>
+<option value="Kingston KC2500 1TB NVMe SSD">Kingston KC2500 1TB NVMe SSD</option>
+<option value="Kingston KC2500 2TB NVMe SSD">Kingston KC2500 2TB NVMe SSD</option>
+<option value="Kingston KC2500 500GB NVMe SSD">Kingston KC2500 500GB NVMe SSD</option>
+<option value="Kingston KC3000 1TB NVMe SSD">Kingston KC3000 1TB NVMe SSD</option>
+<option value="Kingston KC3000 2TB NVMe SSD">Kingston KC3000 2TB NVMe SSD</option>
+<option value="Kingston KC3000 512GB NVMe SSD">Kingston KC3000 512GB NVMe SSD</option>
+<option value="Kingston NV2 1TB NVMe SSD">Kingston NV2 1TB NVMe SSD</option>
+<option value="Kingston NV2 2TB NVMe SSD">Kingston NV2 2TB NVMe SSD</option>
+<option value="Kingston NV2 500GB NVMe SSD">Kingston NV2 500GB NVMe SSD</option>
+<option value="Sabrent Rocket 4 Plus 1TB NVMe SSD">Sabrent Rocket 4 Plus 1TB NVMe SSD</option>
+<option value="Sabrent Rocket 4 Plus 2TB NVMe SSD">Sabrent Rocket 4 Plus 2TB NVMe SSD</option>
+<option value="Sabrent Rocket 4 Plus 4TB NVMe SSD">Sabrent Rocket 4 Plus 4TB NVMe SSD</option>
+<option value="Samsung 870 EVO 1TB 2.5-inch SATA SSD">Samsung 870 EVO 1TB 2.5-inch SATA SSD</option>
+<option value="Samsung 870 EVO 2TB 2.5-inch SATA SSD">Samsung 870 EVO 2TB 2.5-inch SATA SSD</option>
+<option value="Samsung 870 EVO 500GB 2.5-inch SATA SSD">Samsung 870 EVO 500GB 2.5-inch SATA SSD</option>
+<option value="Samsung 870 QVO 1TB 2.5-inch SATA SSD">Samsung 870 QVO 1TB 2.5-inch SATA SSD</option>
+<option value="Samsung 870 QVO 2TB 2.5-inch SATA SSD">Samsung 870 QVO 2TB 2.5-inch SATA SSD</option>
+<option value="Samsung 870 QVO 4TB 2.5-inch SATA SSD">Samsung 870 QVO 4TB 2.5-inch SATA SSD</option>
+<option value="Samsung 970 EVO Plus 1TB NVMe SSD">Samsung 970 EVO Plus 1TB NVMe SSD</option>
+<option value="Samsung 970 EVO Plus 2TB NVMe SSD">Samsung 970 EVO Plus 2TB NVMe SSD</option>
+<option value="Samsung 970 EVO Plus 500GB NVMe SSD">Samsung 970 EVO Plus 500GB NVMe SSD</option>
+<option value="Samsung 980 1TB NVMe SSD">Samsung 980 1TB NVMe SSD</option>
+<option value="Samsung 980 2TB NVMe SSD">Samsung 980 2TB NVMe SSD</option>
+<option value="Samsung 980 500GB NVMe SSD">Samsung 980 500GB NVMe SSD</option>
+<option value="Samsung 980 PRO 1TB NVMe SSD">Samsung 980 PRO 1TB NVMe SSD</option>
+<option value="Samsung 980 PRO 2TB NVMe SSD">Samsung 980 PRO 2TB NVMe SSD</option>
+<option value="Samsung 980 PRO 500GB NVMe SSD">Samsung 980 PRO 500GB NVMe SSD</option>
+<option value="Samsung 990 PRO 1TB NVMe SSD">Samsung 990 PRO 1TB NVMe SSD</option>
+<option value="Samsung 990 PRO 2TB NVMe SSD">Samsung 990 PRO 2TB NVMe SSD</option>
+<option value="Samsung 990 PRO 4TB NVMe SSD">Samsung 990 PRO 4TB NVMe SSD</option>
+<option value="Samsung Portable SSD T7 1TB">Samsung Portable SSD T7 1TB</option>
+<option value="Samsung Portable SSD T7 Shield 2TB">Samsung Portable SSD T7 Shield 2TB</option>
+<option value="SanDisk Extreme Portable SSD 1TB">SanDisk Extreme Portable SSD 1TB</option>
+<option value="SanDisk Extreme Portable SSD 2TB">SanDisk Extreme Portable SSD 2TB</option>
+<option value="Seagate Barracuda 1TB 7200RPM HDD">Seagate Barracuda 1TB 7200RPM HDD</option>
+<option value="Seagate Barracuda 2TB 7200RPM HDD">Seagate Barracuda 2TB 7200RPM HDD</option>
+<option value="Seagate Barracuda 4TB 5400RPM HDD">Seagate Barracuda 4TB 5400RPM HDD</option>
+<option value="Seagate Expansion Portable HDD 2TB">Seagate Expansion Portable HDD 2TB</option>
+<option value="Seagate Expansion Portable HDD 4TB">Seagate Expansion Portable HDD 4TB</option>
+<option value="Seagate FireCuda 530 1TB NVMe SSD">Seagate FireCuda 530 1TB NVMe SSD</option>
+<option value="Seagate FireCuda 530 2TB NVMe SSD">Seagate FireCuda 530 2TB NVMe SSD</option>
+<option value="Seagate FireCuda 530 4TB NVMe SSD">Seagate FireCuda 530 4TB NVMe SSD</option>
+<option value="Seagate IronWolf 12TB NAS HDD">Seagate IronWolf 12TB NAS HDD</option>
+<option value="Seagate IronWolf 4TB NAS HDD">Seagate IronWolf 4TB NAS HDD</option>
+<option value="Seagate IronWolf 8TB NAS HDD">Seagate IronWolf 8TB NAS HDD</option>
+<option value="Seagate IronWolf Pro 12TB NAS HDD">Seagate IronWolf Pro 12TB NAS HDD</option>
+<option value="Seagate IronWolf Pro 4TB NAS HDD">Seagate IronWolf Pro 4TB NAS HDD</option>
+<option value="Seagate IronWolf Pro 8TB NAS HDD">Seagate IronWolf Pro 8TB NAS HDD</option>
+<option value="Teamgroup MP34 1TB NVMe SSD">Teamgroup MP34 1TB NVMe SSD</option>
+<option value="Teamgroup MP34 2TB NVMe SSD">Teamgroup MP34 2TB NVMe SSD</option>
+<option value="Teamgroup MP34 4TB NVMe SSD">Teamgroup MP34 4TB NVMe SSD</option>
+<option value="Toshiba Canvio Basics 2TB Portable HDD">Toshiba Canvio Basics 2TB Portable HDD</option>
+<option value="Toshiba Canvio Basics 4TB Portable HDD">Toshiba Canvio Basics 4TB Portable HDD</option>
+<option value="Western Digital Black SN750 SE 1TB NVMe SSD">Western Digital Black SN750 SE 1TB NVMe SSD</option>
+<option value="Western Digital Black SN750 SE 2TB NVMe SSD">Western Digital Black SN750 SE 2TB NVMe SSD</option>
+<option value="Western Digital Black SN750 SE 500GB NVMe SSD">Western Digital Black SN750 SE 500GB NVMe SSD</option>
+<option value="Western Digital Black SN770 1TB NVMe SSD">Western Digital Black SN770 1TB NVMe SSD</option>
+<option value="Western Digital Black SN770 2TB NVMe SSD">Western Digital Black SN770 2TB NVMe SSD</option>
+<option value="Western Digital Black SN770 500GB NVMe SSD">Western Digital Black SN770 500GB NVMe SSD</option>
+<option value="Western Digital Black SN850 1TB NVMe SSD">Western Digital Black SN850 1TB NVMe SSD</option>
+<option value="Western Digital Black SN850 2TB NVMe SSD">Western Digital Black SN850 2TB NVMe SSD</option>
+<option value="Western Digital Black SN850 500GB NVMe SSD">Western Digital Black SN850 500GB NVMe SSD</option>
+<option value="Western Digital Black SN850X 1TB NVMe SSD">Western Digital Black SN850X 1TB NVMe SSD</option>
+<option value="Western Digital Black SN850X 2TB NVMe SSD">Western Digital Black SN850X 2TB NVMe SSD</option>
+<option value="Western Digital Black SN850X 4TB NVMe SSD">Western Digital Black SN850X 4TB NVMe SSD</option>
+<option value="Western Digital Blue 1TB 7200RPM HDD">Western Digital Blue 1TB 7200RPM HDD</option>
+<option value="Western Digital Blue 2TB 7200RPM HDD">Western Digital Blue 2TB 7200RPM HDD</option>
+<option value="Western Digital Blue 4TB 5400RPM HDD">Western Digital Blue 4TB 5400RPM HDD</option>
+<option value="Western Digital Blue SN570 1TB NVMe SSD">Western Digital Blue SN570 1TB NVMe SSD</option>
+<option value="Western Digital Blue SN570 2TB NVMe SSD">Western Digital Blue SN570 2TB NVMe SSD</option>
+<option value="Western Digital Blue SN570 500GB NVMe SSD">Western Digital Blue SN570 500GB NVMe SSD</option>
+<option value="Western Digital Elements Portable HDD 2TB">Western Digital Elements Portable HDD 2TB</option>
+<option value="Western Digital Elements Portable HDD 4TB">Western Digital Elements Portable HDD 4TB</option>
+<option value="Western Digital Gold 12TB Enterprise HDD">Western Digital Gold 12TB Enterprise HDD</option>
+<option value="Western Digital Green SN350 1TB NVMe SSD">Western Digital Green SN350 1TB NVMe SSD</option>
+<option value="Western Digital Green SN350 2TB NVMe SSD">Western Digital Green SN350 2TB NVMe SSD</option>
+<option value="Western Digital Green SN350 4TB NVMe SSD">Western Digital Green SN350 4TB NVMe SSD</option>
+<option value="Western Digital My Passport SSD 1TB">Western Digital My Passport SSD 1TB</option>
+<option value="Western Digital My Passport SSD 2TB">Western Digital My Passport SSD 2TB</option>
+<option value="Western Digital Red Plus 4TB NAS HDD">Western Digital Red Plus 4TB NAS HDD</option>
+<option value="Western Digital Red Plus 8TB NAS HDD">Western Digital Red Plus 8TB NAS HDD</option>
+<option value="Western Digital Red Pro 12TB NAS HDD">Western Digital Red Pro 12TB NAS HDD</option>
+<option value="Western Digital Red Pro 4TB NAS HDD">Western Digital Red Pro 4TB NAS HDD</option>
+<option value="Western Digital Red Pro 8TB NAS HDD">Western Digital Red Pro 8TB NAS HDD</option>
+                </select>
+            </div>
+
+            <!-- PSU -->
+            <div class="form-group">
+                <label for="psu">Power Supply Unit (PSU)</label>
+                <select id="psu" required>
+                    <option value="">Select a PSU</option>
+                    <option value="be quiet! Pure Power 11 400W 80+ Bronze">be quiet! Pure Power 11 400W 80+ Bronze</option>
+<option value="Corsair CX450 450W 80+ Bronze Non-Modular">Corsair CX450 450W 80+ Bronze Non-Modular</option>
+<option value="Corsair CX450M 450W 80+ Bronze Semi-Modular">Corsair CX450M 450W 80+ Bronze Semi-Modular</option>
+<option value="EVGA 450 BR 450W 80+ Bronze Non-Modular">EVGA 450 BR 450W 80+ Bronze Non-Modular</option>
+<option value="EVGA 450 BT 450W 80+ Bronze Non-Modular">EVGA 450 BT 450W 80+ Bronze Non-Modular</option>
+<option value="EVGA 450 BV 450W 80+ Bronze Non-Modular">EVGA 450 BV 450W 80+ Bronze Non-Modular</option>
+<option value="EVGA SuperNOVA GM 450W 80+ Gold Fully Modular">EVGA SuperNOVA GM 450W 80+ Gold Fully Modular</option>
+<option value="be quiet! Pure Power 11 450W 80+ Bronze">be quiet! Pure Power 11 450W 80+ Bronze</option>
+<option value="EVGA 500 BR 500W 80+ Bronze Non-Modular">EVGA 500 BR 500W 80+ Bronze Non-Modular</option>
+<option value="EVGA 500 BT 500W 80+ Bronze Non-Modular">EVGA 500 BT 500W 80+ Bronze Non-Modular</option>
+<option value="EVGA 500 BV 500W 80+ Bronze Non-Modular">EVGA 500 BV 500W 80+ Bronze Non-Modular</option>
+<option value="be quiet! Pure Power 11 500W 80+ Bronze">be quiet! Pure Power 11 500W 80+ Bronze</option>
+<option value="Corsair CX550 550W 80+ Bronze Non-Modular">Corsair CX550 550W 80+ Bronze Non-Modular</option>
+<option value="Corsair CX550M 550W 80+ Bronze Semi-Modular">Corsair CX550M 550W 80+ Bronze Semi-Modular</option>
+<option value="Corsair RM550 550W 80+ Gold Fully Modular">Corsair RM550 550W 80+ Gold Fully Modular</option>
+<option value="Corsair RM550x (2021) 550W 80+ Gold Fully Modular">Corsair RM550x (2021) 550W 80+ Gold Fully Modular</option>
+<option value="EVGA 550 BR 550W 80+ Bronze Non-Modular">EVGA 550 BR 550W 80+ Bronze Non-Modular</option>
+<option value="EVGA 550 BT 550W 80+ Bronze Non-Modular">EVGA 550 BT 550W 80+ Bronze Non-Modular</option>
+<option value="EVGA 550 BV 550W 80+ Bronze Non-Modular">EVGA 550 BV 550W 80+ Bronze Non-Modular</option>
+<option value="EVGA SuperNOVA GA 550W 80+ Gold Fully Modular">EVGA SuperNOVA GA 550W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GM 550W 80+ Gold Fully Modular">EVGA SuperNOVA GM 550W 80+ Gold Fully Modular</option>
+<option value="be quiet! Pure Power 11 550W 80+ Bronze">be quiet! Pure Power 11 550W 80+ Bronze</option>
+<option value="be quiet! Pure Power 11 FM 550W 80+ Gold Fully Modular">be quiet! Pure Power 11 FM 550W 80+ Gold Fully Modular</option>
+<option value="Corsair CX650 650W 80+ Bronze Non-Modular">Corsair CX650 650W 80+ Bronze Non-Modular</option>
+<option value="Corsair CX650M 650W 80+ Bronze Semi-Modular">Corsair CX650M 650W 80+ Bronze Semi-Modular</option>
+<option value="Corsair RM650 650W 80+ Gold Fully Modular">Corsair RM650 650W 80+ Gold Fully Modular</option>
+<option value="Corsair RM650x (2021) 650W 80+ Gold Fully Modular">Corsair RM650x (2021) 650W 80+ Gold Fully Modular</option>
+<option value="EVGA 600 BR 600W 80+ Bronze Non-Modular">EVGA 600 BR 600W 80+ Bronze Non-Modular</option>
+<option value="EVGA 600 BT 600W 80+ Bronze Non-Modular">EVGA 600 BT 600W 80+ Bronze Non-Modular</option>
+<option value="EVGA 600 BV 600W 80+ Bronze Non-Modular">EVGA 600 BV 600W 80+ Bronze Non-Modular</option>
+<option value="EVGA 650 BT 650W 80+ Bronze Non-Modular">EVGA 650 BT 650W 80+ Bronze Non-Modular</option>
+<option value="EVGA 650 BV 650W 80+ Bronze Non-Modular">EVGA 650 BV 650W 80+ Bronze Non-Modular</option>
+<option value="EVGA SuperNOVA GA 650W 80+ Gold Fully Modular">EVGA SuperNOVA GA 650W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GE 650W 80+ Gold Fully Modular">EVGA SuperNOVA GE 650W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GM 650W 80+ Gold Fully Modular">EVGA SuperNOVA GM 650W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GT 650W 80+ Gold Fully Modular">EVGA SuperNOVA GT 650W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA G6 650W 80+ Gold Fully Modular">EVGA SuperNOVA G6 650W 80+ Gold Fully Modular</option>
+<option value="be quiet! Pure Power 11 600W 80+ Bronze">be quiet! Pure Power 11 600W 80+ Bronze</option>
+<option value="be quiet! Pure Power 11 FM 650W 80+ Gold Fully Modular">be quiet! Pure Power 11 FM 650W 80+ Gold Fully Modular</option>
+<option value="be quiet! Straight Power 11 650W 80+ Gold Fully Modular">be quiet! Straight Power 11 650W 80+ Gold Fully Modular</option>
+<option value="Corsair CX750 750W 80+ Bronze Non-Modular">Corsair CX750 750W 80+ Bronze Non-Modular</option>
+<option value="Corsair CX750M 750W 80+ Bronze Semi-Modular">Corsair CX750M 750W 80+ Bronze Semi-Modular</option>
+<option value="Corsair HX750 750W 80+ Platinum Fully Modular">Corsair HX750 750W 80+ Platinum Fully Modular</option>
+<option value="Corsair RM750 750W 80+ Gold Fully Modular">Corsair RM750 750W 80+ Gold Fully Modular</option>
+<option value="Corsair RM750x (2021) 750W 80+ Gold Fully Modular">Corsair RM750x (2021) 750W 80+ Gold Fully Modular</option>
+<option value="Corsair AX750 750W 80+ Titanium Fully Modular">Corsair AX750 750W 80+ Titanium Fully Modular</option>
+<option value="EVGA 700 BR 700W 80+ Bronze Non-Modular">EVGA 700 BR 700W 80+ Bronze Non-Modular</option>
+<option value="EVGA SuperNOVA GA 750W 80+ Gold Fully Modular">EVGA SuperNOVA GA 750W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GE 750W 80+ Gold Fully Modular">EVGA SuperNOVA GE 750W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GM 750W 80+ Gold Fully Modular">EVGA SuperNOVA GM 750W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GT 750W 80+ Gold Fully Modular">EVGA SuperNOVA GT 750W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA G6 750W 80+ Gold Fully Modular">EVGA SuperNOVA G6 750W 80+ Gold Fully Modular</option>
+<option value="be quiet! Pure Power 11 700W 80+ Bronze">be quiet! Pure Power 11 700W 80+ Bronze</option>
+<option value="be quiet! Pure Power 11 FM 750W 80+ Gold Fully Modular">be quiet! Pure Power 11 FM 750W 80+ Gold Fully Modular</option>
+<option value="be quiet! Straight Power 11 750W 80+ Gold Fully Modular">be quiet! Straight Power 11 750W 80+ Gold Fully Modular</option>
+<option value="Corsair AX850 850W 80+ Titanium Fully Modular">Corsair AX850 850W 80+ Titanium Fully Modular</option>
+<option value="Corsair HX850 850W 80+ Platinum Fully Modular">Corsair HX850 850W 80+ Platinum Fully Modular</option>
+<option value="Corsair RM850 850W 80+ Gold Fully Modular">Corsair RM850 850W 80+ Gold Fully Modular</option>
+<option value="Corsair RM850x (2021) 850W 80+ Gold Fully Modular">Corsair RM850x (2021) 850W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GA 850W 80+ Gold Fully Modular">EVGA SuperNOVA GA 850W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GE 850W 80+ Gold Fully Modular">EVGA SuperNOVA GE 850W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GT 850W 80+ Gold Fully Modular">EVGA SuperNOVA GT 850W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA G6 850W 80+ Gold Fully Modular">EVGA SuperNOVA G6 850W 80+ Gold Fully Modular</option>
+<option value="be quiet! Straight Power 11 850W 80+ Gold Fully Modular">be quiet! Straight Power 11 850W 80+ Gold Fully Modular</option>
+<option value="be quiet! Dark Power Pro 12 850W 80+ Titanium Fully Modular">be quiet! Dark Power Pro 12 850W 80+ Titanium Fully Modular</option>
+<option value="Corsair AX1000 1000W 80+ Titanium Fully Modular">Corsair AX1000 1000W 80+ Titanium Fully Modular</option>
+<option value="Corsair HX1000 1000W 80+ Platinum Fully Modular">Corsair HX1000 1000W 80+ Platinum Fully Modular</option>
+<option value="Corsair RM1000 1000W 80+ Gold Fully Modular">Corsair RM1000 1000W 80+ Gold Fully Modular</option>
+<option value="Corsair RM1000x (2021) 1000W 80+ Gold Fully Modular">Corsair RM1000x (2021) 1000W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GA 1000W 80+ Gold Fully Modular">EVGA SuperNOVA GA 1000W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GE 1000W 80+ Gold Fully Modular">EVGA SuperNOVA GE 1000W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA GT 1000W 80+ Gold Fully Modular">EVGA SuperNOVA GT 1000W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA G6 1000W 80+ Gold Fully Modular">EVGA SuperNOVA G6 1000W 80+ Gold Fully Modular</option>
+<option value="be quiet! Straight Power 11 1000W 80+ Gold Fully Modular">be quiet! Straight Power 11 1000W 80+ Gold Fully Modular</option>
+<option value="be quiet! Dark Power Pro 12 1000W 80+ Titanium Fully Modular">be quiet! Dark Power Pro 12 1000W 80+ Titanium Fully Modular</option>
+<option value="Corsair AX1200i 1200W 80+ Titanium Fully Modular">Corsair AX1200i 1200W 80+ Titanium Fully Modular</option>
+<option value="Corsair HX1200 1200W 80+ Platinum Fully Modular">Corsair HX1200 1200W 80+ Platinum Fully Modular</option>
+<option value="Corsair RM1200x (2023) 1200W 80+ Gold Fully Modular">Corsair RM1200x (2023) 1200W 80+ Gold Fully Modular</option>
+<option value="be quiet! Dark Power Pro 12 1200W 80+ Titanium Fully Modular">be quiet! Dark Power Pro 12 1200W 80+ Titanium Fully Modular</option>
+<option value="EVGA SuperNOVA GA 1300W 80+ Gold Fully Modular">EVGA SuperNOVA GA 1300W 80+ Gold Fully Modular</option>
+<option value="EVGA SuperNOVA G6 1300W 80+ Gold Fully Modular">EVGA SuperNOVA G6 1300W 80+ Gold Fully Modular</option>
+<option value="Corsair AX1600i 1600W 80+ Titanium Fully Modular">Corsair AX1600i 1600W 80+ Titanium Fully Modular</option>
+                </select>
+            </div>
+
+            <!-- Case -->
+            <div class="form-group">
+                <label for="case">Case</label>
+                <select id="case" required>
+                    <option value="">Select a Case</option>
+                   <option value="be quiet! Pure Base 500 Black">be quiet! Pure Base 500 Black</option>
+<option value="be quiet! Pure Base 500DX Black">be quiet! Pure Base 500DX Black</option>
+<option value="be quiet! Pure Base 600 Black">be quiet! Pure Base 600 Black</option>
+<option value="be quiet! Silent Base 601 Black">be quiet! Silent Base 601 Black</option>
+<option value="be quiet! Silent Base 802 Black">be quiet! Silent Base 802 Black</option>
+<option value="Cooler Master MasterBox CM694">Cooler Master MasterBox CM694</option>
+<option value="Cooler Master MasterBox MB511 RGB">Cooler Master MasterBox MB511 RGB</option>
+<option value="Cooler Master MasterBox MB534P ARGB">Cooler Master MasterBox MB534P ARGB</option>
+<option value="Cooler Master MasterCase H500">Cooler Master MasterCase H500</option>
+<option value="Cooler Master MasterCase H500M">Cooler Master MasterCase H500M</option>
+<option value="Cooler Master MasterCase SL600M Black">Cooler Master MasterCase SL600M Black</option>
+<option value="Cooler Master MasterFrame 700">Cooler Master MasterFrame 700</option>
+<option value="Corsair 4000D Airflow Black">Corsair 4000D Airflow Black</option>
+<option value="Corsair 4000D Airflow White">Corsair 4000D Airflow White</option>
+<option value="Corsair 4000D Black">Corsair 4000D Black</option>
+<option value="Corsair 5000D Airflow Black">Corsair 5000D Airflow Black</option>
+<option value="Corsair 5000D Airflow White">Corsair 5000D Airflow White</option>
+<option value="Corsair 5000D Black">Corsair 5000D Black</option>
+<option value="Corsair 5000X RGB Black">Corsair 5000X RGB Black</option>
+<option value="Corsair 5000X RGB White">Corsair 5000X RGB White</option>
+<option value="Corsair 7000D Airflow Black">Corsair 7000D Airflow Black</option>
+<option value="Corsair 7000D Airflow White">Corsair 7000D Airflow White</option>
+<option value="Corsair 7000X RGB Black">Corsair 7000X RGB Black</option>
+<option value="Corsair 7000X RGB White">Corsair 7000X RGB White</option>
+<option value="Corsair iCUE 220T RGB Airflow Black">Corsair iCUE 220T RGB Airflow Black</option>
+<option value="Corsair iCUE 220T RGB Airflow White">Corsair iCUE 220T RGB Airflow White</option>
+<option value="Corsair iCUE 465X RGB Black">Corsair iCUE 465X RGB Black</option>
+<option value="Corsair iCUE 465X RGB White">Corsair iCUE 465X RGB White</option>
+<option value="Corsair iCUE 5000T RGB Black">Corsair iCUE 5000T RGB Black</option>
+<option value="Corsair iCUE 5000T RGB White">Corsair iCUE 5000T RGB White</option>
+<option value="Fractal Design Define 7 Black">Fractal Design Define 7 Black</option>
+<option value="Fractal Design Define 7 Black/White">Fractal Design Define 7 Black/White</option>
+<option value="Fractal Design Define 7 Grey">Fractal Design Define 7 Grey</option>
+<option value="Fractal Design Define 7 Compact Black">Fractal Design Define 7 Compact Black</option>
+<option value="Fractal Design Define 7 Compact Grey">Fractal Design Define 7 Compact Grey</option>
+<option value="Fractal Design Define 7 XL Black">Fractal Design Define 7 XL Black</option>
+<option value="Fractal Design Meshify 2 Black">Fractal Design Meshify 2 Black</option>
+<option value="Fractal Design Meshify 2 Compact Black">Fractal Design Meshify 2 Compact Black</option>
+<option value="Fractal Design Meshify 2 Lite Black">Fractal Design Meshify 2 Lite Black</option>
+<option value="Fractal Design Meshify C Black">Fractal Design Meshify C Black</option>
+<option value="Lian Li LANCOOL 205 Mesh Black">Lian Li LANCOOL 205 Mesh Black</option>
+<option value="Lian Li LANCOOL 205 Mesh White">Lian Li LANCOOL 205 Mesh White</option>
+<option value="Lian Li LANCOOL II Mesh Black">Lian Li LANCOOL II Mesh Black</option>
+<option value="Lian Li LANCOOL II Mesh White">Lian Li LANCOOL II Mesh White</option>
+<option value="Lian Li LANCOOL III Black">Lian Li LANCOOL III Black</option>
+<option value="Lian Li LANCOOL III White">Lian Li LANCOOL III White</option>
+<option value="Lian Li O11 Dynamic Black">Lian Li O11 Dynamic Black</option>
+<option value="Lian Li O11 Dynamic EVO Black">Lian Li O11 Dynamic EVO Black</option>
+<option value="Lian Li O11 Dynamic EVO White">Lian Li O11 Dynamic EVO White</option>
+<option value="Lian Li PC-O11 Air Black">Lian Li PC-O11 Air Black</option>
+<option value="NZXT H510 Black">NZXT H510 Black</option>
+<option value="NZXT H510 White">NZXT H510 White</option>
+<option value="NZXT H510i Black">NZXT H510i Black</option>
+<option value="NZXT H510i White">NZXT H510i White</option>
+<option value="NZXT H510 Flow Black">NZXT H510 Flow Black</option>
+<option value="NZXT H510 Flow White">NZXT H510 Flow White</option>
+<option value="NZXT H7 Flow Black">NZXT H7 Flow Black</option>
+<option value="NZXT H7 Flow White">NZXT H7 Flow White</option>
+<option value="NZXT H7 Black">NZXT H7 Black</option>
+<option value="NZXT H7 White">NZXT H7 White</option>
+<option value="Phanteks Eclipse P300A Mesh Black">Phanteks Eclipse P300A Mesh Black</option>
+<option value="Phanteks Eclipse P360A Black">Phanteks Eclipse P360A Black</option>
+<option value="Phanteks Eclipse P400A Digital Black">Phanteks Eclipse P400A Digital Black</option>
+<option value="Phanteks Eclipse P500A DRGB Black">Phanteks Eclipse P500A DRGB Black</option>
+                </select>
+            </div>
+
+            <button type="button" id="send-email">Send Custom PC order</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("send-email").addEventListener("click", function () {
+            const processor = document.getElementById("processor").value;
+            const motherboard = document.getElementById("motherboard").value;
+            const gpu = document.getElementById("gpu").value;
+            const ram = document.getElementById("ram").value;
+            const storage = document.getElementById("storage").value;
+            const psu = document.getElementById("psu").value;
+            const pcCase = document.getElementById("case").value;
+
+            if (!processor || !motherboard || !gpu || !ram || !storage || !psu || !pcCase) {
+                alert("Please select all components before sending the configuration.");
+                return;
+            }
+
+            const email = "Pixel.pcs01@gmail.com";
+            const subject = "Custom PC Configuration";
+            const body = `
+                Selected Components:
+                - Processor: ${processor}
+                - Motherboard: ${motherboard}
+                - Graphics Card: ${gpu}
+                - RAM: ${ram}
+                - Storage: ${storage}
+                - PSU: ${psu}
+                - Case: ${pcCase}
+            `;
+
+            const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            window.location.href = mailtoLink;
+        });
+    </script>
+</body>
+</html>
